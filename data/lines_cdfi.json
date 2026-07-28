@@ -1,0 +1,192 @@
+{
+  "code": "cdfi",
+  "lines": [
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "铁矿石运价指数",
+      "unit": "点",
+      "weight": "",
+      "prev_value": 1549.11,
+      "curr_value": 1565.81,
+      "change_value": 16.7,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "粮食(大豆)运价指数",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1497.18,
+      "curr_value": 1496.14,
+      "change_value": -1.04,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "镍矿运价指数",
+      "unit": "点",
+      "weight": "",
+      "prev_value": 1481.1000000000001,
+      "curr_value": 1482.4,
+      "change_value": 1.3,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "煤炭运价指数",
+      "unit": "点",
+      "weight": "",
+      "prev_value": 1302.8799999999999,
+      "curr_value": 1299.52,
+      "change_value": -3.36,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "美湾密西西比河—中国北方港口",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 68.36999999999999,
+      "curr_value": 68.32,
+      "change_value": -0.05,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "巴西桑托斯—中国北方港口",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 50.550000000000004,
+      "curr_value": 50.508,
+      "change_value": -0.042,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "巴西图巴朗—中国青岛",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 34.244,
+      "curr_value": 34.388,
+      "change_value": 0.144,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "美西塔科马—中国北方港口",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 34.308,
+      "curr_value": 34.308,
+      "change_value": 0.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "南非萨尔达尼亚—中国青岛",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 24.075,
+      "curr_value": 24.375,
+      "change_value": 0.3,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "澳大利亚杰拉尔顿—中国青岛",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 23.467,
+      "curr_value": 23.467,
+      "change_value": 0.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "澳大利亚纽卡斯尔—中国舟山",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 17.633,
+      "curr_value": 17.717,
+      "change_value": 0.084,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "澳大利亚海波因特—中国舟山",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 17.459999999999997,
+      "curr_value": 17.4,
+      "change_value": -0.06,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "印尼塔巴尼奥—中国南通",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 15.936,
+      "curr_value": 15.904,
+      "change_value": -0.032,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "菲律宾苏里高—中国日照",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 14.279,
+      "curr_value": 14.291,
+      "change_value": 0.012,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "西澳大利亚丹皮尔—中国青岛",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 12.460999999999999,
+      "curr_value": 12.7,
+      "change_value": 0.239,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "印尼塔巴尼奥—中国广州",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 12.644,
+      "curr_value": 12.63,
+      "change_value": -0.014,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-07-27",
+      "line_name": "印尼萨马林达—中国广州",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 9.059999999999999,
+      "curr_value": 8.963,
+      "change_value": -0.097,
+      "change_is_pct": 0
+    }
+  ]
+}

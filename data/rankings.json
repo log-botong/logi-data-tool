@@ -1,0 +1,772 @@
+{
+  "updated": "2026-07-22",
+  "source_home": "https://www.3plogistics.com/3pl-market-info-resources/3pl-market-information/",
+  "source_note": "来源：Armstrong & Associates (A&A) 2026 全球物流榜单，经 3plogistics.com 公开发布（仅同步展示、不加工原始数值）",
+  "lists": [
+    {
+      "id": "freight_forwarders",
+      "name": "全球货代 25 强",
+      "sub": "按 2025 年物流总收入与货运量排名",
+      "columns": [
+        {
+          "key": "rank",
+          "label": "排名",
+          "type": "rank"
+        },
+        {
+          "key": "provider",
+          "label": "企业名称",
+          "type": "name"
+        },
+        {
+          "key": "hq",
+          "label": "总部所在地",
+          "type": "text"
+        },
+        {
+          "key": "revenue",
+          "label": "物流总收入（百万美元）",
+          "type": "int"
+        },
+        {
+          "key": "ocean_teu",
+          "label": "海运货量（TEU）",
+          "type": "int"
+        },
+        {
+          "key": "air_ton",
+          "label": "空运货量（吨）",
+          "type": "int"
+        }
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "en": "Kuehne + Nagel",
+          "cn": "德迅",
+          "hq": "瑞士",
+          "revenue": 33836,
+          "ocean_teu": 4325000,
+          "air_ton": 2030280
+        },
+        {
+          "rank": 1,
+          "en": "DSV",
+          "cn": "得斯威",
+          "hq": "丹麦",
+          "revenue": 37379,
+          "ocean_teu": 3695424,
+          "air_ton": 2013127
+        },
+        {
+          "rank": 2,
+          "en": "DHL Supply Chain & Global Forwarding",
+          "cn": "德国邮政敦豪供应链与全球货运",
+          "hq": "德国",
+          "revenue": 35538,
+          "ocean_teu": 3274000,
+          "air_ton": 1767000
+        },
+        {
+          "rank": 3,
+          "en": "Sinotrans",
+          "cn": "中国外运",
+          "hq": "中国",
+          "revenue": 13580,
+          "ocean_teu": 4925154,
+          "air_ton": 912000
+        },
+        {
+          "rank": 4,
+          "en": "NIPPON EXPRESS",
+          "cn": "日本通运",
+          "hq": "日本",
+          "revenue": 17199,
+          "ocean_teu": 1806197,
+          "air_ton": 933201
+        },
+        {
+          "rank": 5,
+          "en": "CEVA Logistics",
+          "cn": "基华物流",
+          "hq": "法国",
+          "revenue": 18300,
+          "ocean_teu": 1730000,
+          "air_ton": 680000
+        },
+        {
+          "rank": 6,
+          "en": "Expeditors",
+          "cn": "康捷空",
+          "hq": "美国",
+          "revenue": 11069,
+          "ocean_teu": 855200,
+          "air_ton": 928000
+        },
+        {
+          "rank": 7,
+          "en": "C.H. Robinson",
+          "cn": "罗宾逊全球物流",
+          "hq": "美国",
+          "revenue": 14768,
+          "ocean_teu": 1256000,
+          "air_ton": 280000
+        },
+        {
+          "rank": 7,
+          "en": "KLN",
+          "cn": "嘉里物流",
+          "hq": "中国香港",
+          "revenue": 7471,
+          "ocean_teu": 1149956,
+          "air_ton": 840508
+        },
+        {
+          "rank": 8,
+          "en": "GEODIS",
+          "cn": "乔达",
+          "hq": "法国",
+          "revenue": 11700,
+          "ocean_teu": 962000,
+          "air_ton": 267056
+        },
+        {
+          "rank": 9,
+          "en": "Cosco Shipping Logistics",
+          "cn": "中远海运物流",
+          "hq": "中国",
+          "revenue": 8989,
+          "ocean_teu": 1961791,
+          "air_ton": 207656
+        },
+        {
+          "rank": 10,
+          "en": "Maersk Logistics",
+          "cn": "马士基物流",
+          "hq": "丹麦",
+          "revenue": 15103,
+          "ocean_teu": 635000,
+          "air_ton": 318000
+        },
+        {
+          "rank": 11,
+          "en": "Hellmann Worldwide Logistics",
+          "cn": "海尔曼全球物流",
+          "hq": "德国",
+          "revenue": 3952,
+          "ocean_teu": 955000,
+          "air_ton": 595000
+        },
+        {
+          "rank": 12,
+          "en": "Kintetsu World Express",
+          "cn": "近铁国际物流",
+          "hq": "日本",
+          "revenue": 5018,
+          "ocean_teu": 738003,
+          "air_ton": 546095
+        },
+        {
+          "rank": 13,
+          "en": "UPS Supply Chain Solutions",
+          "cn": "联合包裹供应链解决方案",
+          "hq": "美国",
+          "revenue": 8771,
+          "ocean_teu": 530000,
+          "air_ton": 790000
+        },
+        {
+          "rank": 14,
+          "en": "Yusen Logistics",
+          "cn": "日邮物流",
+          "hq": "日本",
+          "revenue": 5157,
+          "ocean_teu": 632000,
+          "air_ton": 280320
+        },
+        {
+          "rank": 15,
+          "en": "DACHSER",
+          "cn": "德莎",
+          "hq": "德国",
+          "revenue": 9349,
+          "ocean_teu": 544196,
+          "air_ton": 238613
+        },
+        {
+          "rank": 15,
+          "en": "LX Pantos",
+          "cn": "泛韩物流",
+          "hq": "韩国",
+          "revenue": 5624,
+          "ocean_teu": 1633000,
+          "air_ton": 126000
+        },
+        {
+          "rank": 16,
+          "en": "CTS International Logistics",
+          "cn": "华贸物流",
+          "hq": "中国",
+          "revenue": 2401,
+          "ocean_teu": 842700,
+          "air_ton": 331900
+        },
+        {
+          "rank": 17,
+          "en": "Rhenus Logistics",
+          "cn": "莱茵物流",
+          "hq": "德国",
+          "revenue": 8869,
+          "ocean_teu": 588510,
+          "air_ton": 193649
+        },
+        {
+          "rank": 18,
+          "en": "AWOT Group",
+          "cn": "大洋物流",
+          "hq": "中国",
+          "revenue": 3350,
+          "ocean_teu": 402000,
+          "air_ton": 785000
+        },
+        {
+          "rank": 19,
+          "en": "Scan Global Logistics",
+          "cn": "世运全球物流",
+          "hq": "丹麦",
+          "revenue": 2851,
+          "ocean_teu": 691000,
+          "air_ton": 212000
+        },
+        {
+          "rank": 20,
+          "en": "CIMC Wetrans Logistics",
+          "cn": "中集世联达",
+          "hq": "中国",
+          "revenue": 3808,
+          "ocean_teu": 961197,
+          "air_ton": 114000
+        },
+        {
+          "rank": 21,
+          "en": "Savino Del Bene",
+          "cn": "萨维诺德尔贝内",
+          "hq": "意大利",
+          "revenue": 3500,
+          "ocean_teu": 852000,
+          "air_ton": 93000
+        },
+        {
+          "rank": 22,
+          "en": "Logwin",
+          "cn": "罗格温",
+          "hq": "卢森堡",
+          "revenue": 1530,
+          "ocean_teu": 685000,
+          "air_ton": 188000
+        }
+      ],
+      "note": "排名 1/7/15 为并列（合计 25 家）；收入含四大 3PL 业务板块，已按年均汇率折算为美元。"
+    },
+    {
+      "id": "global_3pls",
+      "name": "全球第三方物流 50 强",
+      "sub": "按 2025 年物流总收入排名",
+      "columns": [
+        {
+          "key": "rank",
+          "label": "排名",
+          "type": "rank"
+        },
+        {
+          "key": "provider",
+          "label": "企业名称（第三方物流）",
+          "type": "name"
+        },
+        {
+          "key": "revenue",
+          "label": "物流总收入（百万美元）",
+          "type": "int"
+        }
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "en": "Amazon",
+          "cn": "亚马逊",
+          "revenue": 172162
+        },
+        {
+          "rank": 2,
+          "en": "DSV",
+          "cn": "得斯威",
+          "revenue": 37379
+        },
+        {
+          "rank": 3,
+          "en": "DHL Supply Chain & Global Forwarding",
+          "cn": "德国邮政敦豪供应链与全球货运",
+          "revenue": 35538
+        },
+        {
+          "rank": 4,
+          "en": "Kuehne + Nagel",
+          "cn": "德迅",
+          "revenue": 33836
+        },
+        {
+          "rank": 5,
+          "en": "CEVA Logistics",
+          "cn": "基华物流",
+          "revenue": 18300
+        },
+        {
+          "rank": 6,
+          "en": "NIPPON EXPRESS",
+          "cn": "日本通运",
+          "revenue": 17199
+        },
+        {
+          "rank": 7,
+          "en": "Maersk Logistics",
+          "cn": "马士基物流",
+          "revenue": 15103
+        },
+        {
+          "rank": 8,
+          "en": "C.H. Robinson",
+          "cn": "罗宾逊全球物流",
+          "revenue": 14768
+        },
+        {
+          "rank": 9,
+          "en": "Sinotrans",
+          "cn": "中国外运",
+          "revenue": 13580
+        },
+        {
+          "rank": 10,
+          "en": "GXO Logistics",
+          "cn": "GXO物流",
+          "revenue": 13178
+        },
+        {
+          "rank": 11,
+          "en": "GEODIS",
+          "cn": "乔达",
+          "revenue": 11700
+        },
+        {
+          "rank": 12,
+          "en": "J.B. Hunt Transport Services",
+          "cn": "亨特运输",
+          "revenue": 11284
+        },
+        {
+          "rank": 13,
+          "en": "Expeditors",
+          "cn": "康捷空",
+          "revenue": 11069
+        },
+        {
+          "rank": 14,
+          "en": "DP World Logistics",
+          "cn": "迪拜环球港务物流",
+          "revenue": 10501
+        },
+        {
+          "rank": 15,
+          "en": "DACHSER",
+          "cn": "德莎",
+          "revenue": 9349
+        },
+        {
+          "rank": 16,
+          "en": "Cosco Shipping Logistics",
+          "cn": "中远海运物流",
+          "revenue": 8989
+        },
+        {
+          "rank": 17,
+          "en": "Rhenus Logistics",
+          "cn": "莱茵物流",
+          "revenue": 8869
+        },
+        {
+          "rank": 18,
+          "en": "UPS Supply Chain Solutions",
+          "cn": "联合包裹供应链解决方案",
+          "revenue": 8771
+        },
+        {
+          "rank": 19,
+          "en": "Ryder Supply Chain Solutions",
+          "cn": "莱德供应链解决方案",
+          "revenue": 7802
+        },
+        {
+          "rank": 20,
+          "en": "KLN",
+          "cn": "嘉里物流",
+          "revenue": 7471
+        },
+        {
+          "rank": 21,
+          "en": "Total Quality Logistics",
+          "cn": "全面质量物流",
+          "revenue": 7433
+        },
+        {
+          "rank": 22,
+          "en": "LOGISTEED",
+          "cn": "日立物流",
+          "revenue": 6086
+        },
+        {
+          "rank": 23,
+          "en": "CJ Logistics",
+          "cn": "CJ物流",
+          "revenue": 5817
+        },
+        {
+          "rank": 24,
+          "en": "STEF Group",
+          "cn": "STEF集团",
+          "revenue": 5778
+        },
+        {
+          "rank": 25,
+          "en": "RXO",
+          "cn": "",
+          "revenue": 5742
+        },
+        {
+          "rank": 26,
+          "en": "LX Pantos",
+          "cn": "泛韩物流",
+          "revenue": 5624
+        },
+        {
+          "rank": 27,
+          "en": "Lineage",
+          "cn": "莱纳吉冷链",
+          "revenue": 5355
+        },
+        {
+          "rank": 28,
+          "en": "WWEX Group",
+          "cn": "全球快递集团",
+          "revenue": 5181
+        },
+        {
+          "rank": 29,
+          "en": "Yusen Logistics",
+          "cn": "日邮物流",
+          "revenue": 5157
+        },
+        {
+          "rank": 30,
+          "en": "Beon",
+          "cn": "贝昂",
+          "revenue": 5111
+        },
+        {
+          "rank": 31,
+          "en": "Toll Group",
+          "cn": "拓领集团",
+          "revenue": 5100
+        },
+        {
+          "rank": 32,
+          "en": "Uber Freight",
+          "cn": "Uber货运",
+          "revenue": 5099
+        },
+        {
+          "rank": 33,
+          "en": "JD Logistics",
+          "cn": "京东物流",
+          "revenue": 5036
+        },
+        {
+          "rank": 34,
+          "en": "Kintetsu World Express",
+          "cn": "近铁国际物流",
+          "revenue": 5018
+        },
+        {
+          "rank": 35,
+          "en": "ID Logistics Group",
+          "cn": "ID物流集团",
+          "revenue": 4430
+        },
+        {
+          "rank": 36,
+          "en": "Penske Logistics",
+          "cn": "潘世奇物流",
+          "revenue": 4210
+        },
+        {
+          "rank": 37,
+          "en": "Schneider",
+          "cn": "施耐德物流",
+          "revenue": 4146
+        },
+        {
+          "rank": 38,
+          "en": "Echo Global Logistics",
+          "cn": "回声全球物流",
+          "revenue": 4000
+        },
+        {
+          "rank": 39,
+          "en": "Hellmann Worldwide Logistics",
+          "cn": "海尔曼全球物流",
+          "revenue": 3952
+        },
+        {
+          "rank": 40,
+          "en": "Hub Group",
+          "cn": "枢纽集团",
+          "revenue": 3946
+        },
+        {
+          "rank": 41,
+          "en": "CIMC Wetrans Logistics Technology (Group)",
+          "cn": "中集世联达",
+          "revenue": 3808
+        },
+        {
+          "rank": 42,
+          "en": "NFI",
+          "cn": "",
+          "revenue": 3750
+        },
+        {
+          "rank": 43,
+          "en": "AIT Worldwide Logistics",
+          "cn": "AIT全球物流",
+          "revenue": 3560
+        },
+        {
+          "rank": 44,
+          "en": "Savino Del Bene",
+          "cn": "萨维诺德尔贝内",
+          "revenue": 3500
+        },
+        {
+          "rank": 45,
+          "en": "AWOT Group",
+          "cn": "大洋物流",
+          "revenue": 3350
+        },
+        {
+          "rank": 46,
+          "en": "Gebrüder Weiss",
+          "cn": "兄弟维斯",
+          "revenue": 3081
+        },
+        {
+          "rank": 47,
+          "en": "SAIC Anji Logistics",
+          "cn": "上汽安吉物流",
+          "revenue": 3020
+        },
+        {
+          "rank": 48,
+          "en": "Arvato",
+          "cn": "阿瓦托",
+          "revenue": 3000
+        },
+        {
+          "rank": 49,
+          "en": "Mainfreight",
+          "cn": "美迈斯货运",
+          "revenue": 2957
+        },
+        {
+          "rank": 50,
+          "en": "Landstar",
+          "cn": "兰德星",
+          "revenue": 2860
+        }
+      ],
+      "note": "按 2025 年物流总收入排名；亚马逊为第三方卖家服务业务板块（含 3PL 履约与配送），收入含佣金及相关履约费。"
+    },
+    {
+      "id": "warehousing_3pls",
+      "name": "全球仓储型 3PL 25 强",
+      "sub": "按 2025 年全球仓储面积排名",
+      "columns": [
+        {
+          "key": "rank",
+          "label": "排名",
+          "type": "rank"
+        },
+        {
+          "key": "provider",
+          "label": "企业名称",
+          "type": "name"
+        },
+        {
+          "key": "space",
+          "label": "全球仓储面积（百万平方英尺）",
+          "type": "float1"
+        }
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "en": "Amazon.com",
+          "cn": "亚马逊",
+          "space": 426.0
+        },
+        {
+          "rank": 2,
+          "en": "DHL Supply Chain & Global Forwarding",
+          "cn": "德国邮政敦豪供应链与全球货运",
+          "space": 263.7
+        },
+        {
+          "rank": 3,
+          "en": "GXO Logistics",
+          "cn": "GXO物流",
+          "space": 221.0
+        },
+        {
+          "rank": 4,
+          "en": "NIPPON EXPRESS",
+          "cn": "日本通运",
+          "space": 172.3
+        },
+        {
+          "rank": 5,
+          "en": "DSV",
+          "cn": "得斯威",
+          "space": 172.2
+        },
+        {
+          "rank": 6,
+          "en": "SAIC Anji Logistics",
+          "cn": "上汽安吉物流",
+          "space": 151.0
+        },
+        {
+          "rank": 7,
+          "en": "CEVA Logistics",
+          "cn": "基华物流",
+          "space": 134.5
+        },
+        {
+          "rank": 8,
+          "en": "Kuehne + Nagel",
+          "cn": "德迅",
+          "space": 125.0
+        },
+        {
+          "rank": 9,
+          "en": "ID Logistics Group",
+          "cn": "ID物流集团",
+          "space": 107.0
+        },
+        {
+          "rank": 10,
+          "en": "Ryder Supply Chain Solutions",
+          "cn": "莱德供应链解决方案",
+          "space": 105.0
+        },
+        {
+          "rank": 11,
+          "en": "GEODIS",
+          "cn": "乔达",
+          "space": 101.2
+        },
+        {
+          "rank": 12,
+          "en": "Maersk Logistics",
+          "cn": "马士基物流",
+          "space": 100.0
+        },
+        {
+          "rank": 13,
+          "en": "LOGISTEED",
+          "cn": "日立物流",
+          "space": 98.9
+        },
+        {
+          "rank": 14,
+          "en": "Lineage",
+          "cn": "莱纳吉冷链",
+          "space": 85.0
+        },
+        {
+          "rank": 15,
+          "en": "Sinotrans",
+          "cn": "中国外运",
+          "space": 75.3
+        },
+        {
+          "rank": 16,
+          "en": "NFI",
+          "cn": "",
+          "space": 70.0
+        },
+        {
+          "rank": 17,
+          "en": "Cosco Shipping Logistics",
+          "cn": "中远海运物流",
+          "space": 65.1
+        },
+        {
+          "rank": 18,
+          "en": "KLN",
+          "cn": "嘉里物流",
+          "space": 57.0
+        },
+        {
+          "rank": 19,
+          "en": "Americold",
+          "cn": "美冷",
+          "space": 55.0
+        },
+        {
+          "rank": 20,
+          "en": "UPS Supply Chain Solutions",
+          "cn": "联合包裹供应链解决方案",
+          "space": 50.0
+        },
+        {
+          "rank": 21,
+          "en": "FIEGE Logistik",
+          "cn": "飞格物流",
+          "space": 49.5
+        },
+        {
+          "rank": 22,
+          "en": "LX Pantos",
+          "cn": "泛韩物流",
+          "space": 48.5
+        },
+        {
+          "rank": 23,
+          "en": "CJ Logistics",
+          "cn": "CJ物流",
+          "space": 46.0
+        },
+        {
+          "rank": 24,
+          "en": "Kenco",
+          "cn": "肯科",
+          "space": 45.9
+        },
+        {
+          "rank": 25,
+          "en": "Ransa",
+          "cn": "兰萨",
+          "space": 43.1
+        }
+      ],
+      "note": "按 2025 年全球仓储面积（MSF）排名；企业内部物流仓储面积按 50% 封顶计。"
+    }
+  ]
+}

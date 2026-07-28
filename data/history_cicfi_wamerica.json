@@ -1,0 +1,27 @@
+{
+  "code": "cicfi_wamerica",
+  "history": [
+    {
+      "code": "cicfi_wamerica",
+      "pub_date": "2026-07-22",
+      "comprehensive_value": 829.24,
+      "prev_value": 863.13,
+      "change_value": -3.9,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-07-24T10:37:02"
+    },
+    {
+      "code": "cicfi_wamerica",
+      "pub_date": "2026-07-15",
+      "comprehensive_value": 863.13,
+      "prev_value": 893.47,
+      "change_value": -3.4,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-07-21T17:43:58"
+    }
+  ]
+}

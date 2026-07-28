@@ -1,0 +1,27 @@
+{
+  "code": "ccfi_sea",
+  "history": [
+    {
+      "code": "ccfi_sea",
+      "pub_date": "2026-07-24",
+      "comprehensive_value": 1074.12,
+      "prev_value": 1146.43,
+      "change_value": -6.3,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-07-27T17:41:14"
+    },
+    {
+      "code": "ccfi_sea",
+      "pub_date": "2026-07-17",
+      "comprehensive_value": 1146.43,
+      "prev_value": 1143.35,
+      "change_value": 0.3,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-07-21T17:37:30"
+    }
+  ]
+}

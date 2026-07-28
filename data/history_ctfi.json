@@ -1,0 +1,49 @@
+{
+  "code": "ctfi",
+  "history": [
+    {
+      "code": "ctfi",
+      "pub_date": "2026-07-27",
+      "comprehensive_value": 4330.65,
+      "prev_value": 4240.91,
+      "change_value": 89.74,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
+      "fetched_at": "2026-07-27T17:41:14"
+    },
+    {
+      "code": "ctfi",
+      "pub_date": "2026-07-24",
+      "comprehensive_value": 4193.77,
+      "prev_value": 4143.370000000001,
+      "change_value": 50.4,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
+      "fetched_at": "2026-07-24T10:37:02"
+    },
+    {
+      "code": "ctfi",
+      "pub_date": "2026-07-22",
+      "comprehensive_value": 4143.37,
+      "prev_value": 4251.68,
+      "change_value": -108.31,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
+      "fetched_at": "2026-07-22T18:30:10"
+    },
+    {
+      "code": "ctfi",
+      "pub_date": "2026-07-21",
+      "comprehensive_value": 4251.68,
+      "prev_value": -67.98,
+      "change_value": -67.98,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
+      "fetched_at": "2026-07-21T18:14:22"
+    }
+  ]
+}

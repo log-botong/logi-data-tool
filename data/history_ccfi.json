@@ -1,0 +1,27 @@
+{
+  "code": "ccfi",
+  "history": [
+    {
+      "code": "ccfi",
+      "pub_date": "2026-07-24",
+      "comprehensive_value": 1901.27,
+      "prev_value": 1910.67,
+      "change_value": -0.5,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-07-24T18:30:02"
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-07-17",
+      "comprehensive_value": 1910.67,
+      "prev_value": 1873.15,
+      "change_value": 2.0,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-07-21T16:16:31"
+    }
+  ]
+}

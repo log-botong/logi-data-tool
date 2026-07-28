@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>物流数据速查台 · 撰稿人工具</title>
+  <link rel="stylesheet" href="style.css?v=24">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>物流数据速查台</h1>
+      <p class="sub">行情快讯 · 深度复盘 · 跨周期对比 ｜ 多源聚合，仅同步展示、不加工原始数值</p>
+    </div>
+    <div class="actions">
+      <span id="lastUpdated" class="last-updated">最近更新：—</span>
+      <button id="refreshBtn" class="btn-primary owner-only">⟳ 一键刷新</button>
+      <button id="spbRefreshBtn" class="btn-primary hidden owner-only">⟳ 更新行业数据</button>
+      <button id="unlockBtn" class="btn-ghost" title="输入作者令牌以解锁刷新/导入等管理功能">🔓 解锁管理</button>
+    </div>
+  </header>
+
+  <nav class="domain-tabs" id="domainTabs"></nav>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <main id="content">
+    <div class="loading">正在加载数据…</div>
+  </main>
+
+  <!-- 航运运价指数：历史导入 -->
+  <section class="import-bar owner-only" id="importShipping">
+    <details>
+      <summary>导入运价历史 CSV / Excel（补齐过往时序）</summary>
+      <p class="hint">表头兼容中英文，任选其一即可：<br>
+        中文：<code>指数代码, 发布日期, 综合指数, 上期, 涨跌, 涨跌幅(%), 单位</code><br>
+        英文：<code>code, pub_date, comprehensive_value, prev_value, change_value, change_is_pct, unit</code>。<br>
+        也支持用 <code>SCFI</code> 等缩写或中文全名作为"指数代码"列。仅导入综合指数时序。
+        <button id="tplBtn" class="btn-ghost" style="margin-left:8px">下载模板</button>
+      </p>
+      <input type="file" id="importFile" accept=".csv,.xlsx,.xlsm">
+      <button id="importBtn" class="btn-ghost">上传并导入</button>
+      <span id="importMsg" class="import-msg"></span>
+    </details>
+  </section>
+
+  <!-- 快递企业运营：数据导入 -->
+  <section class="import-bar hidden owner-only" id="importExpress">
+    <details>
+      <summary>导入快递企业运营数据（.xlsx，按「X月」分表）</summary>
+      <p class="hint">Excel 结构：每个工作表名为「1月」…「6月」，首列企业、后续列
+        <code>业务收入(亿元)/同比、完成业务量(亿件)/同比、单票收入/同比</code>。
+        系统自动识别 顺丰 / 圆通 / 申通 / 韵达 并归并到对应月份，跳过「合计」透视表。
+        重导同一文件会更新已存在的月份。</p>
+      <input type="file" id="expressFile" accept=".xlsx,.xlsm">
+      <button id="expressImportBtn" class="btn-ghost">上传并导入</button>
+      <span id="expressImportMsg" class="import-msg"></span>
+    </details>
+  </section>
+
+  <footer class="footer">
+    <p>航运运价指数来源：<a href="https://www.sse.net.cn/home" target="_blank" rel="noopener">上海航运交易所（SSE）</a> 公开发布；
+      快递企业运营数据为用户自行整理（来源：各快递公司月度经营公告 / 国家邮政局公开披露）；
+      「其他数据」板块的邮政行业月度（快递业务收入/业务量）来源：<a href="https://www.spb.gov.cn/gjyzj/c100276/common_list.shtml" target="_blank" rel="noopener">国家邮政局《邮政行业运行情况》</a> 月度公告；
+      「物流榜单」板块来源：<a href="https://www.3plogistics.com/3pl-market-info-resources/3pl-market-information/" target="_blank" rel="noopener">Armstrong & Associates (A&A) 2026 全球物流榜单</a>（经 3plogistics.com 公开发布）；
+      「卡车销量榜」来源：<a href="https://www.360che.com/top/t2.html" target="_blank" rel="noopener">卡车之家·卡车销量榜</a>（每月 20 日左右公布，含全部总销量与纯电动）。本工具仅做同步聚合展示，不加工、不修改原始数值。</p>
+    <p class="muted">数据版权归原作者所有，撰稿引用请标注出处；本工具为本地个人素材沉淀/查阅用途，勿用于商业再分发。航运定时同步需本机处于开机运行状态，错过窗口可点【一键刷新】兜底；邮政行业月度于每月 25 日自动同步，卡车销量榜于每月 20 日自动同步，二者亦可点【更新行业数据】手动更新。</p>
+  </footer>
+
+  <script src="app.js?v=37"></script>
+</body>
+</html>

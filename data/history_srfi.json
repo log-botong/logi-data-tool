@@ -1,0 +1,16 @@
+{
+  "code": "srfi",
+  "history": [
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-21",
+      "comprehensive_value": 196.04,
+      "prev_value": null,
+      "change_value": 1.1,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://sse.sh.cn/index/singleIndex?indexType=srfi",
+      "fetched_at": "2026-07-21T16:16:31"
+    }
+  ]
+}

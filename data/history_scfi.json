@@ -1,0 +1,27 @@
+{
+  "code": "scfi",
+  "history": [
+    {
+      "code": "scfi",
+      "pub_date": "2026-07-24",
+      "comprehensive_value": 3062.95,
+      "prev_value": 3080.31,
+      "change_value": -17.36,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=scfi",
+      "fetched_at": "2026-07-24T18:30:02"
+    },
+    {
+      "code": "scfi",
+      "pub_date": "2026-07-17",
+      "comprehensive_value": 3080.31,
+      "prev_value": 3184.83,
+      "change_value": -104.52,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://sse.net.cn/index/singleIndex?indexType=scfi",
+      "fetched_at": "2026-07-21T16:16:31"
+    }
+  ]
+}

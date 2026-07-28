@@ -1,0 +1,676 @@
+{
+  "companies": [
+    {
+      "company": "顺丰",
+      "color": "#d92662",
+      "quarterly": false,
+      "freq_label": "月度披露",
+      "latest_month": "2026-06",
+      "latest": {
+        "company": "顺丰",
+        "month": "2026-06",
+        "revenue": 200.17,
+        "revenue_yoy": 0.28,
+        "volume": 13.89,
+        "volume_yoy": -4.86,
+        "price": 14.41,
+        "price_yoy": 5.41,
+        "source": "2026快递数据汇总.xlsx",
+        "updated_at": "2026-07-21T16:32:37",
+        "profit": null,
+        "profit_yoy": null,
+        "segments": []
+      },
+      "series": [
+        {
+          "company": "顺丰",
+          "month": "2026-01",
+          "revenue": 203.96,
+          "revenue_yoy": -1.77,
+          "volume": 13.8,
+          "volume_yoy": 4.21,
+          "price": 14.72,
+          "price_yoy": -5.7,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "顺丰",
+          "month": "2026-02",
+          "revenue": 164.21,
+          "revenue_yoy": 24.88,
+          "volume": 10.72,
+          "volume_yoy": 17.03,
+          "price": 15.32,
+          "price_yoy": 6.76,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "顺丰",
+          "month": "2026-03",
+          "revenue": 180.19,
+          "revenue_yoy": 0.68,
+          "volume": 12.51,
+          "volume_yoy": -3.4,
+          "price": 14.4,
+          "price_yoy": 4.2,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "顺丰",
+          "month": "2026-04",
+          "revenue": 183.85,
+          "revenue_yoy": 2.12,
+          "volume": 12.95,
+          "volume_yoy": -3.0,
+          "price": 14.2,
+          "price_yoy": 5.26,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "顺丰",
+          "month": "2026-05",
+          "revenue": 194.5,
+          "revenue_yoy": 0.36,
+          "volume": 14.15,
+          "volume_yoy": -4.2,
+          "price": 13.75,
+          "price_yoy": 4.8,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "顺丰",
+          "month": "2026-06",
+          "revenue": 200.17,
+          "revenue_yoy": 0.28,
+          "volume": 13.89,
+          "volume_yoy": -4.86,
+          "price": 14.41,
+          "price_yoy": 5.41,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        }
+      ]
+    },
+    {
+      "company": "圆通",
+      "color": "#6f42c1",
+      "quarterly": false,
+      "freq_label": "月度披露",
+      "latest_month": "2026-06",
+      "latest": {
+        "company": "圆通",
+        "month": "2026-06",
+        "revenue": 58.83,
+        "revenue_yoy": 6.44,
+        "volume": 28.53,
+        "volume_yoy": 8.57,
+        "price": 2.06,
+        "price_yoy": -1.96,
+        "source": "2026快递数据汇总.xlsx",
+        "updated_at": "2026-07-21T16:32:37",
+        "profit": null,
+        "profit_yoy": null,
+        "segments": []
+      },
+      "series": [
+        {
+          "company": "圆通",
+          "month": "2026-01",
+          "revenue": 66.12,
+          "revenue_yoy": 23.82,
+          "volume": 29.43,
+          "volume_yoy": 29.75,
+          "price": 2.25,
+          "price_yoy": -4.57,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "圆通",
+          "month": "2026-02",
+          "revenue": 44.52,
+          "revenue_yoy": 3.76,
+          "volume": 18.57,
+          "volume_yoy": 0.59,
+          "price": 2.4,
+          "price_yoy": 3.15,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "圆通",
+          "month": "2026-03",
+          "revenue": 60.77,
+          "revenue_yoy": 4.58,
+          "volume": 28.43,
+          "volume_yoy": 6.67,
+          "price": 2.14,
+          "price_yoy": -1.96,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "圆通",
+          "month": "2026-04",
+          "revenue": 60.71,
+          "revenue_yoy": 5.49,
+          "volume": 27.26,
+          "volume_yoy": 1.22,
+          "price": 2.23,
+          "price_yoy": 4.21,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "圆通",
+          "month": "2026-05",
+          "revenue": 62.4,
+          "revenue_yoy": 6.68,
+          "volume": 30.57,
+          "volume_yoy": 10.61,
+          "price": 2.04,
+          "price_yoy": -3.55,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "圆通",
+          "month": "2026-06",
+          "revenue": 58.83,
+          "revenue_yoy": 6.44,
+          "volume": 28.53,
+          "volume_yoy": 8.57,
+          "price": 2.06,
+          "price_yoy": -1.96,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        }
+      ]
+    },
+    {
+      "company": "申通",
+      "color": "#f0922f",
+      "quarterly": false,
+      "freq_label": "月度披露",
+      "latest_month": "2026-06",
+      "latest": {
+        "company": "申通",
+        "month": "2026-06",
+        "revenue": 54.75,
+        "revenue_yoy": 26.13,
+        "volume": 25.9,
+        "volume_yoy": 18.58,
+        "price": 2.11,
+        "price_yoy": 6.03,
+        "source": "2026快递数据汇总.xlsx",
+        "updated_at": "2026-07-21T16:32:37",
+        "profit": null,
+        "profit_yoy": null,
+        "segments": []
+      },
+      "series": [
+        {
+          "company": "申通",
+          "month": "2026-01",
+          "revenue": 59.73,
+          "revenue_yoy": 43.26,
+          "volume": 25.4,
+          "volume_yoy": 25.57,
+          "price": 2.35,
+          "price_yoy": 14.08,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "申通",
+          "month": "2026-02",
+          "revenue": 39.08,
+          "revenue_yoy": 12.76,
+          "volume": 16.0,
+          "volume_yoy": -5.85,
+          "price": 2.44,
+          "price_yoy": 19.61,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "申通",
+          "month": "2026-03",
+          "revenue": 55.95,
+          "revenue_yoy": 33.57,
+          "volume": 25.02,
+          "volume_yoy": 19.97,
+          "price": 2.24,
+          "price_yoy": 11.44,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "申通",
+          "month": "2026-04",
+          "revenue": 53.79,
+          "revenue_yoy": 30.62,
+          "volume": 23.79,
+          "volume_yoy": 13.69,
+          "price": 2.26,
+          "price_yoy": 14.72,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "申通",
+          "month": "2026-05",
+          "revenue": 57.44,
+          "revenue_yoy": 30.23,
+          "volume": 26.89,
+          "volume_yoy": 18.78,
+          "price": 2.14,
+          "price_yoy": 9.74,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "申通",
+          "month": "2026-06",
+          "revenue": 54.75,
+          "revenue_yoy": 26.13,
+          "volume": 25.9,
+          "volume_yoy": 18.58,
+          "price": 2.11,
+          "price_yoy": 6.03,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        }
+      ]
+    },
+    {
+      "company": "韵达",
+      "color": "#2f7ed8",
+      "quarterly": false,
+      "freq_label": "月度披露",
+      "latest_month": "2026-06",
+      "latest": {
+        "company": "韵达",
+        "month": "2026-06",
+        "revenue": 45.78,
+        "revenue_yoy": 10.34,
+        "volume": 21.72,
+        "volume_yoy": -0.05,
+        "price": 2.11,
+        "price_yoy": 10.47,
+        "source": "2026快递数据汇总.xlsx",
+        "updated_at": "2026-07-21T16:32:37",
+        "profit": null,
+        "profit_yoy": null,
+        "segments": []
+      },
+      "series": [
+        {
+          "company": "韵达",
+          "month": "2026-01",
+          "revenue": 48.02,
+          "revenue_yoy": 18.01,
+          "volume": 22.31,
+          "volume_yoy": 10.83,
+          "price": 2.15,
+          "price_yoy": 6.44,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "韵达",
+          "month": "2026-02",
+          "revenue": 30.04,
+          "revenue_yoy": -15.07,
+          "volume": 13.37,
+          "volume_yoy": -26.13,
+          "price": 2.25,
+          "price_yoy": 15.38,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "韵达",
+          "month": "2026-03",
+          "revenue": 45.9,
+          "revenue_yoy": 4.08,
+          "volume": 21.42,
+          "volume_yoy": -4.93,
+          "price": 2.14,
+          "price_yoy": 9.18,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "韵达",
+          "month": "2026-04",
+          "revenue": 44.0,
+          "revenue_yoy": 6.0,
+          "volume": 20.84,
+          "volume_yoy": -4.14,
+          "price": 2.11,
+          "price_yoy": 10.47,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "韵达",
+          "month": "2026-05",
+          "revenue": 47.17,
+          "revenue_yoy": 6.84,
+          "volume": 22.91,
+          "volume_yoy": -0.52,
+          "price": 2.06,
+          "price_yoy": 7.29,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "韵达",
+          "month": "2026-06",
+          "revenue": 45.78,
+          "revenue_yoy": 10.34,
+          "volume": 21.72,
+          "volume_yoy": -0.05,
+          "price": 2.11,
+          "price_yoy": 10.47,
+          "source": "2026快递数据汇总.xlsx",
+          "updated_at": "2026-07-21T16:32:37",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        }
+      ]
+    },
+    {
+      "company": "极兔",
+      "color": "#16a34a",
+      "quarterly": true,
+      "freq_label": "季度披露",
+      "latest_month": "2026-06",
+      "latest": {
+        "company": "极兔",
+        "month": "2026-06",
+        "revenue": null,
+        "revenue_yoy": null,
+        "volume": 91.767,
+        "volume_yoy": 24.2,
+        "price": null,
+        "price_yoy": null,
+        "source": "1225414471.pdf",
+        "updated_at": "2026-07-21T18:29:31",
+        "profit": null,
+        "profit_yoy": null,
+        "segments": [
+          {
+            "company": "极兔",
+            "month": "2026-06",
+            "region": "中国",
+            "volume": 6210.6,
+            "volume_yoy": 10.6
+          },
+          {
+            "company": "极兔",
+            "month": "2026-06",
+            "region": "东南亚",
+            "volume": 2754.8,
+            "volume_yoy": 63.2
+          },
+          {
+            "company": "极兔",
+            "month": "2026-06",
+            "region": "其他",
+            "volume": 211.3,
+            "volume_yoy": 136.5
+          }
+        ]
+      },
+      "series": [
+        {
+          "company": "极兔",
+          "month": "2026-03",
+          "revenue": null,
+          "revenue_yoy": null,
+          "volume": 83.258,
+          "volume_yoy": 26.2,
+          "price": null,
+          "price_yoy": null,
+          "source": "1225097060.pdf",
+          "updated_at": "2026-07-21T18:29:31",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": [
+            {
+              "company": "极兔",
+              "month": "2026-03",
+              "region": "中国",
+              "volume": 5404.4,
+              "volume_yoy": 8.4
+            },
+            {
+              "company": "极兔",
+              "month": "2026-03",
+              "region": "东南亚",
+              "volume": 2767.8,
+              "volume_yoy": 79.9
+            },
+            {
+              "company": "极兔",
+              "month": "2026-03",
+              "region": "其他",
+              "volume": 153.6,
+              "volume_yoy": 100.5
+            }
+          ]
+        },
+        {
+          "company": "极兔",
+          "month": "2026-06",
+          "revenue": null,
+          "revenue_yoy": null,
+          "volume": 91.767,
+          "volume_yoy": 24.2,
+          "price": null,
+          "price_yoy": null,
+          "source": "1225414471.pdf",
+          "updated_at": "2026-07-21T18:29:31",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": [
+            {
+              "company": "极兔",
+              "month": "2026-06",
+              "region": "中国",
+              "volume": 6210.6,
+              "volume_yoy": 10.6
+            },
+            {
+              "company": "极兔",
+              "month": "2026-06",
+              "region": "东南亚",
+              "volume": 2754.8,
+              "volume_yoy": 63.2
+            },
+            {
+              "company": "极兔",
+              "month": "2026-06",
+              "region": "其他",
+              "volume": 211.3,
+              "volume_yoy": 136.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "中通",
+      "color": "#0d9488",
+      "quarterly": true,
+      "freq_label": "季度披露",
+      "latest_month": "2026-03",
+      "latest": {
+        "company": "中通",
+        "month": "2026-03",
+        "revenue": 132.824,
+        "revenue_yoy": 22.0,
+        "volume": 96.68,
+        "volume_yoy": 13.2,
+        "price": 1.37,
+        "price_yoy": 7.7,
+        "source": "中通2026Q1财报",
+        "updated_at": "2026-07-24T18:05:11",
+        "profit": 21.564,
+        "profit_yoy": 5.7,
+        "segments": []
+      },
+      "series": [
+        {
+          "company": "中通",
+          "month": "2026-03",
+          "revenue": 132.824,
+          "revenue_yoy": 22.0,
+          "volume": 96.68,
+          "volume_yoy": 13.2,
+          "price": 1.37,
+          "price_yoy": 7.7,
+          "source": "中通2026Q1财报",
+          "updated_at": "2026-07-24T18:05:11",
+          "profit": 21.564,
+          "profit_yoy": 5.7,
+          "segments": []
+        }
+      ],
+      "cost_breakdown": [
+        {
+          "name": "干线运输成本",
+          "amount": 35.302,
+          "yoy": 1.4,
+          "pct_revenue": 26.6,
+          "unit_cost": 0.365,
+          "unit_delta": -0.04
+        },
+        {
+          "name": "分拣中心运营成本",
+          "amount": 24.543,
+          "yoy": 6.0,
+          "pct_revenue": 18.5,
+          "unit_cost": 0.254,
+          "unit_delta": -0.02
+        },
+        {
+          "name": "货代代理成本",
+          "amount": 1.543,
+          "yoy": null,
+          "pct_revenue": 1.2,
+          "unit_cost": 0.016
+        },
+        {
+          "name": "物料销售成本",
+          "amount": 1.276,
+          "yoy": -4.3,
+          "pct_revenue": 1.0,
+          "unit_cost": 0.013
+        },
+        {
+          "name": "其他成本",
+          "amount": 37.809,
+          "yoy": 80.2,
+          "pct_revenue": 28.3,
+          "unit_cost": 0.391
+        },
+        {
+          "name": "营业成本总额",
+          "amount": 100.471,
+          "yoy": 22.5,
+          "pct_revenue": 75.6,
+          "unit_cost": 1.039,
+          "total": true
+        }
+      ]
+    }
+  ],
+  "months": [
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06"
+  ],
+  "latest_month": "2026-06",
+  "source_note": "用户整理（来源：各快递公司月度/季度经营公告 / 国家邮政局公开披露；极兔、中通为季度披露，净利润取 net income）"
+}

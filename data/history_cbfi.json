@@ -1,0 +1,27 @@
+{
+  "code": "cbfi",
+  "history": [
+    {
+      "code": "cbfi",
+      "pub_date": "2026-07-24",
+      "comprehensive_value": 1236.2,
+      "prev_value": 1158.33,
+      "change_value": 6.7,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbfi",
+      "fetched_at": "2026-07-24T18:30:02"
+    },
+    {
+      "code": "cbfi",
+      "pub_date": "2026-07-17",
+      "comprehensive_value": 1158.33,
+      "prev_value": 1073.2,
+      "change_value": 7.9,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbfi",
+      "fetched_at": "2026-07-21T18:14:22"
+    }
+  ]
+}

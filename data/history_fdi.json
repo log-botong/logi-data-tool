@@ -1,0 +1,60 @@
+{
+  "code": "fdi",
+  "history": [
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "comprehensive_value": 1671.14,
+      "prev_value": 1660.2,
+      "change_value": 10.94,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
+      "fetched_at": "2026-07-27T17:41:14"
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-24",
+      "comprehensive_value": 1660.2,
+      "prev_value": 1641.4,
+      "change_value": 18.8,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
+      "fetched_at": "2026-07-24T18:30:02"
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-23",
+      "comprehensive_value": 1641.4,
+      "prev_value": 1625.51,
+      "change_value": 15.89,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
+      "fetched_at": "2026-07-24T10:37:02"
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-22",
+      "comprehensive_value": 1625.51,
+      "prev_value": 1602.18,
+      "change_value": 23.33,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
+      "fetched_at": "2026-07-22T18:30:10"
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-21",
+      "comprehensive_value": 1602.18,
+      "prev_value": 1640.3100000000002,
+      "change_value": -38.13,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
+      "fetched_at": "2026-07-22T10:42:00"
+    }
+  ]
+}

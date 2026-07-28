@@ -1,0 +1,38 @@
+{
+  "code": "cbgfi",
+  "history": [
+    {
+      "code": "cbgfi",
+      "pub_date": "2026-07-27",
+      "comprehensive_value": 1265.05,
+      "prev_value": 1265.05,
+      "change_value": 0.0,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbgfi",
+      "fetched_at": "2026-07-27T17:48:06"
+    },
+    {
+      "code": "cbgfi",
+      "pub_date": "2026-07-24",
+      "comprehensive_value": 1265.05,
+      "prev_value": 1164.35,
+      "change_value": 100.7,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbgfi",
+      "fetched_at": "2026-07-24T18:30:02"
+    },
+    {
+      "code": "cbgfi",
+      "pub_date": "2026-07-17",
+      "comprehensive_value": 1164.35,
+      "prev_value": 1126.4199999999998,
+      "change_value": 37.93,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbgfi",
+      "fetched_at": "2026-07-22T10:41:57"
+    }
+  ]
+}

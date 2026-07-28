@@ -1,0 +1,71 @@
+{
+  "code": "cbcfi",
+  "history": [
+    {
+      "code": "cbcfi",
+      "pub_date": "2026-07-27",
+      "comprehensive_value": 1098.42,
+      "prev_value": 1094.6,
+      "change_value": 3.82,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
+      "fetched_at": "2026-07-27T17:41:14"
+    },
+    {
+      "code": "cbcfi",
+      "pub_date": "2026-07-24",
+      "comprehensive_value": 1094.6,
+      "prev_value": 1101.06,
+      "change_value": -6.46,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
+      "fetched_at": "2026-07-24T18:30:02"
+    },
+    {
+      "code": "cbcfi",
+      "pub_date": "2026-07-23",
+      "comprehensive_value": 1101.06,
+      "prev_value": 1125.69,
+      "change_value": -24.63,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
+      "fetched_at": "2026-07-24T10:37:02"
+    },
+    {
+      "code": "cbcfi",
+      "pub_date": "2026-07-22",
+      "comprehensive_value": 1125.69,
+      "prev_value": 1121.19,
+      "change_value": 4.5,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
+      "fetched_at": "2026-07-22T18:30:10"
+    },
+    {
+      "code": "cbcfi",
+      "pub_date": "2026-07-21",
+      "comprehensive_value": 1121.19,
+      "prev_value": 1072.75,
+      "change_value": 48.44,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
+      "fetched_at": "2026-07-21T18:14:22"
+    },
+    {
+      "code": "cbcfi",
+      "pub_date": "2026-07-20",
+      "comprehensive_value": 1072.75,
+      "prev_value": 973.46,
+      "change_value": 99.29,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://sse.sh.cn/index/singleIndex?indexType=cbcfi",
+      "fetched_at": "2026-07-21T16:16:31"
+    }
+  ]
+}

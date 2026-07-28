@@ -1,0 +1,269 @@
+{
+  "code": "fdi",
+  "lines": [
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "中国—日本/太平洋往返航次",
+      "unit": "美元/天",
+      "weight": "",
+      "prev_value": 31507.0,
+      "curr_value": 32583.0,
+      "change_value": 1076.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "新加坡经印尼至中国南方",
+      "unit": "美元/天",
+      "weight": "",
+      "prev_value": 15468.0,
+      "curr_value": 15441.0,
+      "change_value": -27.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "中国渤海湾内—东南亚",
+      "unit": "美元/天",
+      "weight": "",
+      "prev_value": 15253.0,
+      "curr_value": 15217.0,
+      "change_value": -36.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "中国南方经印尼至韩国",
+      "unit": "美元/天",
+      "weight": "",
+      "prev_value": 15028.0,
+      "curr_value": 14706.0,
+      "change_value": -322.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "中国南方/印尼往返航次",
+      "unit": "美元/天",
+      "weight": "",
+      "prev_value": 13627.0,
+      "curr_value": 13623.0,
+      "change_value": -4.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "印度东海岸—中国北方（试运行）",
+      "unit": "美元/天",
+      "weight": "",
+      "prev_value": 10990.0,
+      "curr_value": 11010.0,
+      "change_value": 20.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "海岬型船租金指数",
+      "unit": "点",
+      "weight": "",
+      "prev_value": 2076.2200000000003,
+      "curr_value": 2147.17,
+      "change_value": 70.95,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "FDI租金指数",
+      "unit": "点",
+      "weight": "",
+      "prev_value": 1939.8500000000001,
+      "curr_value": 1956.16,
+      "change_value": 16.31,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "超灵便型船租金指数",
+      "unit": "点",
+      "weight": "",
+      "prev_value": 1880.61,
+      "curr_value": 1877.62,
+      "change_value": -2.99,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "巴拿马型船租金指数",
+      "unit": "点",
+      "weight": "",
+      "prev_value": 1817.27,
+      "curr_value": 1780.01,
+      "change_value": -37.26,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "FDI运价指数",
+      "unit": "点",
+      "weight": "",
+      "prev_value": 1473.7700000000002,
+      "curr_value": 1481.13,
+      "change_value": 7.36,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "美湾密西西比河—中国北方港口",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 68.36999999999999,
+      "curr_value": 68.32,
+      "change_value": -0.05,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "巴西桑托斯—中国北方港口",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 50.550000000000004,
+      "curr_value": 50.508,
+      "change_value": -0.042,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "巴西图巴朗—中国青岛",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 34.244,
+      "curr_value": 34.388,
+      "change_value": 0.144,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "美西塔科马—中国北方港口",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 34.308,
+      "curr_value": 34.308,
+      "change_value": 0.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "南非萨尔达尼亚—中国青岛",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 24.075,
+      "curr_value": 24.375,
+      "change_value": 0.3,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "澳大利亚杰拉尔顿—中国青岛",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 23.467,
+      "curr_value": 23.467,
+      "change_value": 0.0,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "澳大利亚纽卡斯尔—中国舟山",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 17.633,
+      "curr_value": 17.717,
+      "change_value": 0.084,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "澳大利亚海波因特—中国舟山",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 17.459999999999997,
+      "curr_value": 17.4,
+      "change_value": -0.06,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "印尼塔巴尼奥—中国南通",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 15.936,
+      "curr_value": 15.904,
+      "change_value": -0.032,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "菲律宾苏里高—中国日照",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 14.279,
+      "curr_value": 14.291,
+      "change_value": 0.012,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "西澳大利亚丹皮尔—中国青岛",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 12.460999999999999,
+      "curr_value": 12.7,
+      "change_value": 0.239,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "印尼塔巴尼奥—中国广州",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 12.644,
+      "curr_value": 12.63,
+      "change_value": -0.014,
+      "change_is_pct": 0
+    },
+    {
+      "code": "fdi",
+      "pub_date": "2026-07-27",
+      "line_name": "印尼萨马林达—中国广州",
+      "unit": "美元/吨",
+      "weight": "",
+      "prev_value": 9.059999999999999,
+      "curr_value": 8.963,
+      "change_value": -0.097,
+      "change_is_pct": 0
+    }
+  ]
+}
