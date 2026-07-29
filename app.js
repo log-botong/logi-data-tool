@@ -361,24 +361,23 @@ function expressCard(comp) {
 }
 
 async function toggleExpressDetail(comp, cardEl) {
-  const key = "exp:" + comp.company;
-  if (state.open === key) {
-    const d = cardEl.querySelector(".detail");
-    if (d) d.remove();
+  const grid = cardEl.parentElement;
+  const existing = grid.querySelector(".detail");
+  if (cardEl.classList.contains("expanded")) {
     cardEl.classList.remove("expanded");
+    if (existing) existing.remove();
     state.open = null;
     return;
   }
-  state.open = key;
+  state.open = "exp:" + comp.company;
   document.querySelectorAll(".detail").forEach((d) => d.remove());
   document.querySelectorAll(".express-card.expanded").forEach((c) => c.classList.remove("expanded"));
-  const detail = document.createElement("div");
-  detail.className = "detail";
-  detail.innerHTML = `<div class="loading">加载…</div>`;
-  cardEl.appendChild(detail);
-  detail.innerHTML = "";
   cardEl.classList.add("expanded");
+  const detail = document.createElement("div");
+  detail.className = "detail express-detail";
   detail.appendChild(expressDetail(comp));
+  // 插在卡片紧后方（而非 grid 末尾），避免被其他卡隔开；并跨整行展示宽表格
+  cardEl.after(detail);
 }
 
 function expressDetail(comp) {
@@ -476,6 +475,10 @@ function expressDetail(comp) {
   const sc = document.createElement("div");
   sc.className = "tbl-scroll";
   sc.appendChild(tbl);
+  const hint = document.createElement("div");
+  hint.className = "tbl-scroll-hint";
+  hint.textContent = "← 左右滑动查看完整数据 →";
+  sc.appendChild(hint);
   wrap.appendChild(sc);
 
   // 地区包裹量细分（极兔按地区披露，原文为百万件，统一换算为亿件展示）
