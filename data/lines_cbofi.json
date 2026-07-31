@@ -3,46 +3,46 @@
   "lines": [
     {
       "code": "cbofi",
-      "pub_date": "2026-07-27",
+      "pub_date": "2026-07-29",
       "line_name": "青岛/日照-张家港",
       "unit": "",
       "weight": "",
-      "prev_value": 37.1,
-      "curr_value": 37.5,
-      "change_value": 0.4,
-      "change_is_pct": 0
-    },
-    {
-      "code": "cbofi",
-      "pub_date": "2026-07-27",
-      "line_name": "北仑/舟山-南京",
-      "unit": "",
-      "weight": "",
-      "prev_value": 29.4,
-      "curr_value": 29.7,
-      "change_value": 0.3,
-      "change_is_pct": 0
-    },
-    {
-      "code": "cbofi",
-      "pub_date": "2026-07-27",
-      "line_name": "北仑/舟山-张家港",
-      "unit": "",
-      "weight": "",
-      "prev_value": 27.7,
-      "curr_value": 27.9,
+      "prev_value": 37.5,
+      "curr_value": 37.7,
       "change_value": 0.2,
       "change_is_pct": 0
     },
     {
       "code": "cbofi",
-      "pub_date": "2026-07-27",
+      "pub_date": "2026-07-29",
+      "line_name": "北仑/舟山-南京",
+      "unit": "",
+      "weight": "",
+      "prev_value": 29.7,
+      "curr_value": 29.5,
+      "change_value": -0.2,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cbofi",
+      "pub_date": "2026-07-29",
+      "line_name": "北仑/舟山-张家港",
+      "unit": "",
+      "weight": "",
+      "prev_value": 27.900000000000002,
+      "curr_value": 28.1,
+      "change_value": 0.2,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cbofi",
+      "pub_date": "2026-07-29",
       "line_name": "北仑/舟山-镇江",
       "unit": "",
       "weight": "",
-      "prev_value": 25.4,
-      "curr_value": 25.7,
-      "change_value": 0.3,
+      "prev_value": 25.7,
+      "curr_value": 25.5,
+      "change_value": -0.2,
       "change_is_pct": 0
     }
   ]

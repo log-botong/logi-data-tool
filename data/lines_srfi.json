@@ -1,4 +1,181 @@
 {
   "code": "srfi",
-  "lines": []
+  "lines": [
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "“海上丝绸之路”进口原油运价指数",
+      "unit": "",
+      "weight": "10%",
+      "prev_value": 385.7597535934292,
+      "curr_value": 375.73,
+      "change_value": -2.6,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "中东湾拉斯坦努拉—中国宁波（原油,265000MT）",
+      "unit": "",
+      "weight": "100%",
+      "prev_value": 385.7597535934292,
+      "curr_value": 375.73,
+      "change_value": -2.6,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "波红航线",
+      "unit": "",
+      "weight": "10%",
+      "prev_value": 306.6568914956012,
+      "curr_value": 313.71,
+      "change_value": 2.3,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "西澳大利亚丹皮尔—中国青岛（铁矿石,170000MT）",
+      "unit": "",
+      "weight": "50%",
+      "prev_value": 288.42450765864334,
+      "curr_value": 263.62,
+      "change_value": -8.6,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "澳大利亚纽卡斯尔—中国舟山（煤炭,130000MT）",
+      "unit": "",
+      "weight": "10%",
+      "prev_value": 320.96370463078847,
+      "curr_value": 256.45,
+      "change_value": -20.1,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "“海上丝绸之路”进口干散货运价指数",
+      "unit": "",
+      "weight": "30%",
+      "prev_value": 256.92393736017897,
+      "curr_value": 229.69,
+      "change_value": -10.6,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "印尼萨马林达—中国广州（煤炭，70000MT）",
+      "unit": "",
+      "weight": "10%",
+      "prev_value": 240.7466340269278,
+      "curr_value": 196.69,
+      "change_value": -18.3,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "“海上丝绸之路”出口集装箱运价指数",
+      "unit": "",
+      "weight": "40%",
+      "prev_value": 155.163132137031,
+      "curr_value": 190.23,
+      "change_value": 22.6,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "印尼塔巴尼奥—中国广州（煤炭,50000MT）",
+      "unit": "",
+      "weight": "10%",
+      "prev_value": 188.74340021119326,
+      "curr_value": 178.74,
+      "change_value": -5.3,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "澳大利亚海波因特—中国舟山（煤炭,85000MT）",
+      "unit": "",
+      "weight": "10%",
+      "prev_value": 202.42840778923252,
+      "curr_value": 176.72,
+      "change_value": -12.7,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "菲律宾苏里高—中国日照（镍矿,50000MT）",
+      "unit": "",
+      "weight": "10%",
+      "prev_value": 172.90650406504065,
+      "curr_value": 170.14,
+      "change_value": -1.6,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "“海上丝绸之路”进口集装箱运价指数",
+      "unit": "",
+      "weight": "20%",
+      "prev_value": 107.50741839762613,
+      "curr_value": 108.69,
+      "change_value": 1.1,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "澳新航线",
+      "unit": "",
+      "weight": "10%",
+      "prev_value": 106.43628509719224,
+      "curr_value": 98.56,
+      "change_value": -7.4,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "地中海航线",
+      "unit": "",
+      "weight": "15%",
+      "prev_value": 75.13232514177693,
+      "curr_value": 79.49,
+      "change_value": 5.8,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "东南亚航线",
+      "unit": "",
+      "weight": "25%",
+      "prev_value": 71.13541666666667,
+      "curr_value": 68.29,
+      "change_value": -4.0,
+      "change_is_pct": 1
+    },
+    {
+      "code": "srfi",
+      "pub_date": "2026-07-31",
+      "line_name": "欧洲航线",
+      "unit": "",
+      "weight": "40%",
+      "prev_value": 43.98139534883721,
+      "curr_value": 47.28,
+      "change_value": 7.5,
+      "change_is_pct": 1
+    }
+  ]
 }

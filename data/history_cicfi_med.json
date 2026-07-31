@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cicfi_med",
+      "pub_date": "2026-07-29",
+      "comprehensive_value": 774.79,
+      "prev_value": 783.43,
+      "change_value": -1.1,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-07-31T10:22:52"
+    },
+    {
+      "code": "cicfi_med",
       "pub_date": "2026-07-22",
       "comprehensive_value": 783.43,
       "prev_value": 773.53,

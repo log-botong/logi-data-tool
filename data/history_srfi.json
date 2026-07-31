@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "srfi",
+      "pub_date": "2026-07-31",
+      "comprehensive_value": 200.93,
+      "prev_value": 196.02926829268296,
+      "change_value": 2.5,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=srfi",
+      "fetched_at": "2026-07-31T10:22:52"
+    },
+    {
+      "code": "srfi",
       "pub_date": "2026-07-21",
       "comprehensive_value": 196.04,
       "prev_value": null,

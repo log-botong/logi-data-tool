@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "twfi",
+      "pub_date": "2026-07-29",
+      "comprehensive_value": 1414.15,
+      "prev_value": 1417.61,
+      "change_value": -0.2,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=twfi",
+      "fetched_at": "2026-07-31T10:22:52"
+    },
+    {
+      "code": "twfi",
       "pub_date": "2026-07-22",
       "comprehensive_value": 1417.61,
       "prev_value": 1428.25,
