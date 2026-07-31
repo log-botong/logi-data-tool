@@ -75,7 +75,7 @@ body {
 .flat { color: var(--flat); }
 .empty { color: var(--muted); font-style: italic; }
 
-.detail { margin-top: 10px; border-top: 1px dashed var(--line); padding-top: 10px; }
+.detail { margin-top: 10px; border-top: 1px dashed var(--line); padding-top: 10px; cursor: default; }
 .detail h4 { margin: 6px 0 8px; font-size: 13px; color: var(--ink); }
 .express-detail { grid-column: 1 / -1; margin-top: 10px; }
 .tbl-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }

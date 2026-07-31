@@ -151,7 +151,11 @@ function card(item) {
     <div class="meta"><span class="freq">${item.freq_label}</span><span>${pub}</span>${routeTag}</div>
     <div style="margin-top:6px"><a class="src-link" href="${item.source_url}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">航交所原文 ↗</a></div>
   `;
-  el.addEventListener("click", () => toggleDetail(el));
+  el.addEventListener("click", (e) => {
+    // 点击详情区域（对照期、表格、图表等）时不触发卡片折叠
+    if (e.target.closest(".detail")) return;
+    toggleDetail(el);
+  });
   return el;
 }
 
