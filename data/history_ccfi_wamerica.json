@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_wamerica",
+      "pub_date": "2026-07-31",
+      "comprehensive_value": 1532.94,
+      "prev_value": 1632.4,
+      "change_value": -6.1,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-08-03T10:41:37"
+    },
+    {
+      "code": "ccfi_wamerica",
       "pub_date": "2026-07-24",
       "comprehensive_value": 1632.4,
       "prev_value": 1559.94,
