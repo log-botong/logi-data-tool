@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "fdi",
+      "pub_date": "2026-08-06",
+      "comprehensive_value": 1904.02,
+      "prev_value": 1859.8,
+      "change_value": 44.22,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
+      "fetched_at": "2026-08-07T11:01:21"
+    },
+    {
+      "code": "fdi",
       "pub_date": "2026-07-31",
       "comprehensive_value": 1661.6,
       "prev_value": 1633.4399999999998,
