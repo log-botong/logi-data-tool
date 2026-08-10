@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_weafrica",
+      "pub_date": "2026-08-07",
+      "comprehensive_value": 1177.16,
+      "prev_value": 1218.12,
+      "change_value": -3.4,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-08-08T18:42:51"
+    },
+    {
+      "code": "ccfi_weafrica",
       "pub_date": "2026-07-31",
       "comprehensive_value": 1218.12,
       "prev_value": 1191.21,
