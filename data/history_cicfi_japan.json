@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cicfi_japan",
+      "pub_date": "2026-08-12",
+      "comprehensive_value": 999.42,
+      "prev_value": 980.58,
+      "change_value": 1.9,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-08-14T09:51:29"
+    },
+    {
+      "code": "cicfi_japan",
       "pub_date": "2026-08-05",
       "comprehensive_value": 980.58,
       "prev_value": 971.76,
