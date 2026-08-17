@@ -754,16 +754,16 @@
         "parent": null,
         "latest": {
           "code": "cbcfi",
-          "pub_date": "2026-08-14",
-          "comprehensive_value": 1078.26,
-          "prev_value": 1089.65,
-          "change_value": -11.39,
+          "pub_date": "2026-08-17",
+          "comprehensive_value": 1070.92,
+          "prev_value": 1078.26,
+          "change_value": -7.34,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
-          "fetched_at": "2026-08-14T18:00:11"
+          "fetched_at": "2026-08-17T15:04:31"
         },
-        "history_count": 14,
+        "history_count": 15,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
         "composite": true
       },
@@ -1046,6 +1046,6 @@
       }
     ]
   },
-  "last_updated": "2026-08-17T09:50:30",
+  "last_updated": "2026-08-17T15:04:31",
   "source_home": "https://www.sse.net.cn/home"
 }
