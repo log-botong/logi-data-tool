@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_pgrs",
+      "pub_date": "2026-08-14",
+      "comprehensive_value": 3227.3,
+      "prev_value": 3113.24,
+      "change_value": 3.7,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-08-17T09:50:30"
+    },
+    {
+      "code": "ccfi_pgrs",
       "pub_date": "2026-08-07",
       "comprehensive_value": 3113.24,
       "prev_value": 2915.16,
