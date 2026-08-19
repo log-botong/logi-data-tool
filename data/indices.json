@@ -727,16 +727,16 @@
         "parent": null,
         "latest": {
           "code": "ctfi",
-          "pub_date": "2026-08-17",
-          "comprehensive_value": 5425.89,
-          "prev_value": 5347.410000000001,
-          "change_value": 78.48,
+          "pub_date": "2026-08-19",
+          "comprehensive_value": 5846.09,
+          "prev_value": 5536.2300000000005,
+          "change_value": 309.86,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
-          "fetched_at": "2026-08-17T09:50:30"
+          "fetched_at": "2026-08-19T09:51:35"
         },
-        "history_count": 12,
+        "history_count": 13,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
         "composite": true
       }
@@ -754,16 +754,16 @@
         "parent": null,
         "latest": {
           "code": "cbcfi",
-          "pub_date": "2026-08-17",
-          "comprehensive_value": 1070.92,
-          "prev_value": 1078.26,
-          "change_value": -7.34,
+          "pub_date": "2026-08-18",
+          "comprehensive_value": 1040.74,
+          "prev_value": 1070.92,
+          "change_value": -30.18,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
-          "fetched_at": "2026-08-17T15:04:31"
+          "fetched_at": "2026-08-19T09:51:35"
         },
-        "history_count": 15,
+        "history_count": 16,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
         "composite": true
       },
@@ -829,16 +829,16 @@
         "parent": null,
         "latest": {
           "code": "cbofi",
-          "pub_date": "2026-08-14",
-          "comprehensive_value": 966.18,
-          "prev_value": 968.8199999999999,
-          "change_value": -2.64,
+          "pub_date": "2026-08-17",
+          "comprehensive_value": 961.88,
+          "prev_value": 966.18,
+          "change_value": -4.3,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbofi",
-          "fetched_at": "2026-08-14T18:00:11"
+          "fetched_at": "2026-08-17T18:05:28"
         },
-        "history_count": 11,
+        "history_count": 12,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbofi",
         "composite": true
       },
@@ -854,16 +854,16 @@
         "parent": null,
         "latest": {
           "code": "cdfi",
-          "pub_date": "2026-08-14",
-          "comprehensive_value": 1543.23,
-          "prev_value": 1557.16,
-          "change_value": -13.93,
+          "pub_date": "2026-08-18",
+          "comprehensive_value": 1555.46,
+          "prev_value": 1565.6200000000001,
+          "change_value": -10.16,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cdfi",
-          "fetched_at": "2026-08-14T18:00:11"
+          "fetched_at": "2026-08-19T09:51:35"
         },
-        "history_count": 13,
+        "history_count": 15,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cdfi",
         "composite": true
       },
@@ -879,16 +879,16 @@
         "parent": null,
         "latest": {
           "code": "fdi",
-          "pub_date": "2026-08-14",
-          "comprehensive_value": 1780.69,
-          "prev_value": 1803.8200000000002,
-          "change_value": -23.13,
+          "pub_date": "2026-08-18",
+          "comprehensive_value": 1790.29,
+          "prev_value": 1814.94,
+          "change_value": -24.65,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
-          "fetched_at": "2026-08-14T18:00:11"
+          "fetched_at": "2026-08-19T09:51:35"
         },
-        "history_count": 13,
+        "history_count": 15,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
         "composite": true
       }
@@ -1046,6 +1046,6 @@
       }
     ]
   },
-  "last_updated": "2026-08-17T15:34:00",
+  "last_updated": "2026-08-19T09:51:35",
   "source_home": "https://www.sse.net.cn/home"
 }

@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cbcfi",
+      "pub_date": "2026-08-18",
+      "comprehensive_value": 1040.74,
+      "prev_value": 1070.92,
+      "change_value": -30.18,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
+      "fetched_at": "2026-08-19T09:51:35"
+    },
+    {
+      "code": "cbcfi",
       "pub_date": "2026-08-17",
       "comprehensive_value": 1070.92,
       "prev_value": 1078.26,
