@@ -14,7 +14,7 @@
         "volume": 13.25,
         "volume_yoy": -3.78,
         "price": 14.45,
-        "price_yoy": 6.66,
+        "price_yoy": 6.64,
         "source": "2026年7月业绩快报（公司公告，2026-08-19发布）",
         "updated_at": "2026-08-20T11:04:03",
         "profit": null,
@@ -120,7 +120,7 @@
           "volume": 13.25,
           "volume_yoy": -3.78,
           "price": 14.45,
-          "price_yoy": 6.66,
+          "price_yoy": 6.64,
           "source": "2026年7月业绩快报（公司公告，2026-08-19发布）",
           "updated_at": "2026-08-20T11:04:03",
           "profit": null,
@@ -641,23 +641,38 @@
       "color": "#0d9488",
       "quarterly": true,
       "freq_label": "季度披露",
-      "latest_month": "2026-03",
+      "latest_month": "2026-06",
       "latest": {
         "company": "中通",
-        "month": "2026-03",
-        "revenue": 132.824,
-        "revenue_yoy": 22.0,
-        "volume": 96.68,
-        "volume_yoy": 13.2,
-        "price": 1.37,
-        "price_yoy": 7.7,
-        "source": "中通2026Q1财报",
-        "updated_at": "2026-07-24T18:05:11",
-        "profit": 21.564,
-        "profit_yoy": 5.7,
+        "month": "2026-06",
+        "revenue": 145.499,
+        "revenue_yoy": 23.0,
+        "volume": 104.86,
+        "volume_yoy": 6.5,
+        "price": 1.39,
+        "price_yoy": 15.5,
+        "source": "中通2026Q2财报：收入145.50亿元（+23.0%），毛利37.33亿元（+26.8%），净利润30.78亿元（+56.7%），包裹量104.86亿件（+6.5%），营业成本108.17亿元（+21.7%）；干线运输33.76亿元（+2.6%），单票运输成本降3.0%；分拣中心25.06亿元（+3.8%）；物料销售1.46亿元（-3.6%）；其他成本46.10亿元（+61.2%）。",
+        "updated_at": "2026-08-20T11:48:45",
+        "profit": 30.776,
+        "profit_yoy": 56.7,
         "segments": []
       },
       "series": [
+        {
+          "company": "中通",
+          "month": "2025-H1",
+          "revenue": 227.23,
+          "revenue_yoy": 9.8,
+          "volume": 183.9,
+          "volume_yoy": 17.7,
+          "price": 1.24,
+          "price_yoy": null,
+          "source": "中通2025H1中报基数：收入227.23亿元（+9.8%），剔除货代223.64亿元；净利润39.32亿元（-2.6%）；业务量183.9亿件（+17.7%）。用于计算2026H1同比。",
+          "updated_at": "2026-08-20T11:56:08",
+          "profit": 39.32,
+          "profit_yoy": -2.6,
+          "segments": []
+        },
         {
           "company": "中通",
           "month": "2026-03",
@@ -672,58 +687,122 @@
           "profit": 21.564,
           "profit_yoy": 5.7,
           "segments": []
+        },
+        {
+          "company": "中通",
+          "month": "2026-06",
+          "revenue": 145.499,
+          "revenue_yoy": 23.0,
+          "volume": 104.86,
+          "volume_yoy": 6.5,
+          "price": 1.39,
+          "price_yoy": 15.5,
+          "source": "中通2026Q2财报：收入145.50亿元（+23.0%），毛利37.33亿元（+26.8%），净利润30.78亿元（+56.7%），包裹量104.86亿件（+6.5%），营业成本108.17亿元（+21.7%）；干线运输33.76亿元（+2.6%），单票运输成本降3.0%；分拣中心25.06亿元（+3.8%）；物料销售1.46亿元（-3.6%）；其他成本46.10亿元（+61.2%）。",
+          "updated_at": "2026-08-20T11:48:45",
+          "profit": 30.776,
+          "profit_yoy": 56.7,
+          "segments": []
         }
       ],
-      "cost_breakdown": [
-        {
-          "name": "干线运输成本",
-          "amount": 35.302,
-          "yoy": 1.4,
-          "pct_revenue": 26.6,
-          "unit_cost": 0.365,
-          "unit_delta": -0.04
-        },
-        {
-          "name": "分拣中心运营成本",
-          "amount": 24.543,
-          "yoy": 6.0,
-          "pct_revenue": 18.5,
-          "unit_cost": 0.254,
-          "unit_delta": -0.02
-        },
-        {
-          "name": "货代代理成本",
-          "amount": 1.543,
-          "yoy": null,
-          "pct_revenue": 1.2,
-          "unit_cost": 0.016
-        },
-        {
-          "name": "物料销售成本",
-          "amount": 1.276,
-          "yoy": -4.3,
-          "pct_revenue": 1.0,
-          "unit_cost": 0.013
-        },
-        {
-          "name": "其他成本",
-          "amount": 37.809,
-          "yoy": 80.2,
-          "pct_revenue": 28.3,
-          "unit_cost": 0.391
-        },
-        {
-          "name": "营业成本总额",
-          "amount": 100.471,
-          "yoy": 22.5,
-          "pct_revenue": 75.6,
-          "unit_cost": 1.039,
-          "total": true
-        }
-      ]
+      "cost_breakdown_by_month": {
+        "2026-03": [
+          {
+            "name": "干线运输成本",
+            "amount": 35.302,
+            "yoy": 1.4,
+            "pct_revenue": 26.6,
+            "unit_cost": 0.365,
+            "unit_delta": -0.04
+          },
+          {
+            "name": "分拣中心运营成本",
+            "amount": 24.543,
+            "yoy": 6.0,
+            "pct_revenue": 18.5,
+            "unit_cost": 0.254,
+            "unit_delta": -0.02
+          },
+          {
+            "name": "货代代理成本",
+            "amount": 1.543,
+            "yoy": null,
+            "pct_revenue": 1.2,
+            "unit_cost": 0.016
+          },
+          {
+            "name": "物料销售成本",
+            "amount": 1.276,
+            "yoy": -4.3,
+            "pct_revenue": 1.0,
+            "unit_cost": 0.013
+          },
+          {
+            "name": "其他成本",
+            "amount": 37.809,
+            "yoy": 80.2,
+            "pct_revenue": 28.3,
+            "unit_cost": 0.391
+          },
+          {
+            "name": "营业成本总额",
+            "amount": 100.471,
+            "yoy": 22.5,
+            "pct_revenue": 75.6,
+            "unit_cost": 1.039,
+            "total": true
+          }
+        ],
+        "2026-06": [
+          {
+            "name": "干线运输成本",
+            "amount": 33.756,
+            "yoy": 2.6,
+            "pct_revenue": 23.2,
+            "unit_cost": 0.322,
+            "unit_delta": -0.01
+          },
+          {
+            "name": "分拣中心运营成本",
+            "amount": 25.058,
+            "yoy": 3.8,
+            "pct_revenue": 17.2,
+            "unit_cost": 0.239
+          },
+          {
+            "name": "货代代理成本",
+            "amount": 1.798,
+            "yoy": 5.6,
+            "pct_revenue": 1.2,
+            "unit_cost": 0.017
+          },
+          {
+            "name": "物料销售成本",
+            "amount": 1.458,
+            "yoy": -3.6,
+            "pct_revenue": 1.0,
+            "unit_cost": 0.014
+          },
+          {
+            "name": "其他成本",
+            "amount": 46.097,
+            "yoy": 61.2,
+            "pct_revenue": 31.7,
+            "unit_cost": 0.44
+          },
+          {
+            "name": "营业成本总额",
+            "amount": 108.166,
+            "yoy": 21.7,
+            "pct_revenue": 74.3,
+            "unit_cost": 1.032,
+            "total": true
+          }
+        ]
+      }
     }
   ],
   "months": [
+    "2025-H1",
     "2026-01",
     "2026-02",
     "2026-03",

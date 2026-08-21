@@ -1,5 +1,6 @@
 {
   "months": [
+    "2026-07",
     "2026-06",
     "2026-05",
     "2026-04",
@@ -7,7 +8,7 @@
     "2026-02",
     "2026-01"
   ],
-  "latest_month": "2026-06",
+  "latest_month": "2026-07",
   "categories": [
     {
       "key": "all",
@@ -21,6 +22,712 @@
     }
   ],
   "by_month": {
+    "2026-07": {
+      "all": [
+        {
+          "rank": 1,
+          "brand": "上汽通用五菱",
+          "sales": 20411,
+          "sales_change": 554,
+          "brand_url": "https://product.360che.com/b_370.html"
+        },
+        {
+          "rank": 2,
+          "brand": "远程新能源商用车",
+          "sales": 14179,
+          "sales_change": -1640,
+          "brand_url": "https://product.360che.com/b_1218.html"
+        },
+        {
+          "rank": 3,
+          "brand": "长安跨越",
+          "sales": 11469,
+          "sales_change": 863,
+          "brand_url": "https://product.360che.com/b_228.html"
+        },
+        {
+          "rank": 4,
+          "brand": "江铃汽车",
+          "sales": 10075,
+          "sales_change": -960,
+          "brand_url": "https://product.360che.com/b_28.html"
+        },
+        {
+          "rank": 5,
+          "brand": "福田祥菱",
+          "sales": 6849,
+          "sales_change": 289,
+          "brand_url": "https://product.360che.com/b_1255.html"
+        },
+        {
+          "rank": 6,
+          "brand": "长安凯程",
+          "sales": 6050,
+          "sales_change": -631,
+          "brand_url": "https://product.360che.com/b_368.html"
+        },
+        {
+          "rank": 7,
+          "brand": "上汽大通",
+          "sales": 5640,
+          "sales_change": -1181,
+          "brand_url": "https://product.360che.com/b_1134.html"
+        },
+        {
+          "rank": 8,
+          "brand": "徐工重卡",
+          "sales": 5076,
+          "sales_change": -38,
+          "brand_url": "https://product.360che.com/b_232.html"
+        },
+        {
+          "rank": 9,
+          "brand": "重汽HOWO轻卡",
+          "sales": 4804,
+          "sales_change": -606,
+          "brand_url": "https://product.360che.com/b_1151.html"
+        },
+        {
+          "rank": 10,
+          "brand": "一汽解放",
+          "sales": 4702,
+          "sales_change": -2981,
+          "brand_url": "https://product.360che.com/b_5.html"
+        },
+        {
+          "rank": 11,
+          "brand": "欧曼重卡",
+          "sales": 4343,
+          "sales_change": -1541,
+          "brand_url": "https://product.360che.com/b_13.html"
+        },
+        {
+          "rank": 12,
+          "brand": "福田奥铃",
+          "sales": 4149,
+          "sales_change": -587,
+          "brand_url": "https://product.360che.com/b_1126.html"
+        },
+        {
+          "rank": 13,
+          "brand": "时代汽车",
+          "sales": 3582,
+          "sales_change": -281,
+          "brand_url": "https://product.360che.com/b_35.html"
+        },
+        {
+          "rank": 14,
+          "brand": "奇瑞商用车",
+          "sales": 3408,
+          "sales_change": -1333,
+          "brand_url": "https://product.360che.com/b_374.html"
+        },
+        {
+          "rank": 15,
+          "brand": "重汽豪沃(HOWO)",
+          "sales": 3336,
+          "sales_change": -2726,
+          "brand_url": "https://product.360che.com/b_1165.html"
+        },
+        {
+          "rank": 16,
+          "brand": "一汽解放轻卡",
+          "sales": 3331,
+          "sales_change": -398,
+          "brand_url": "https://product.360che.com/b_1182.html"
+        },
+        {
+          "rank": 17,
+          "brand": "上汽跃进",
+          "sales": 3008,
+          "sales_change": 1440,
+          "brand_url": "https://product.360che.com/b_1207.html"
+        },
+        {
+          "rank": 18,
+          "brand": "陕汽重卡",
+          "sales": 2770,
+          "sales_change": -800,
+          "brand_url": "https://product.360che.com/b_8.html"
+        },
+        {
+          "rank": 19,
+          "brand": "东风商用车",
+          "sales": 2713,
+          "sales_change": -738,
+          "brand_url": "https://product.360che.com/b_6.html"
+        },
+        {
+          "rank": 20,
+          "brand": "青岛解放",
+          "sales": 2618,
+          "sales_change": -1084,
+          "brand_url": "https://product.360che.com/b_934.html"
+        },
+        {
+          "rank": 21,
+          "brand": "福田欧马可",
+          "sales": 2541,
+          "sales_change": -96,
+          "brand_url": "https://product.360che.com/b_1125.html"
+        },
+        {
+          "rank": 22,
+          "brand": "重汽汕德卡",
+          "sales": 2511,
+          "sales_change": -744,
+          "brand_url": "https://product.360che.com/b_1164.html"
+        },
+        {
+          "rank": 23,
+          "brand": "三一重卡",
+          "sales": 2354,
+          "sales_change": -1448,
+          "brand_url": "https://product.360che.com/b_980.html"
+        },
+        {
+          "rank": 24,
+          "brand": "东风柳汽乘龙",
+          "sales": 2204,
+          "sales_change": -1733,
+          "brand_url": "https://product.360che.com/b_30.html"
+        },
+        {
+          "rank": 25,
+          "brand": "图雅诺",
+          "sales": 2156,
+          "sales_change": -11,
+          "brand_url": "https://product.360che.com/b_1128.html"
+        },
+        {
+          "rank": 26,
+          "brand": "江淮骏铃",
+          "sales": 2122,
+          "sales_change": -267,
+          "brand_url": "https://product.360che.com/b_1146.html"
+        },
+        {
+          "rank": 27,
+          "brand": "瑞驰",
+          "sales": 1696,
+          "sales_change": -160,
+          "brand_url": "https://product.360che.com/b_1291.html"
+        },
+        {
+          "rank": 28,
+          "brand": "陕汽商用车",
+          "sales": 1694,
+          "sales_change": 135,
+          "brand_url": "https://product.360che.com/b_1140.html"
+        },
+        {
+          "rank": 29,
+          "brand": "比亚迪",
+          "sales": 1570,
+          "sales_change": -45,
+          "brand_url": "https://product.360che.com/b_1154.html"
+        },
+        {
+          "rank": 30,
+          "brand": "菱势汽车(五菱新能源)",
+          "sales": 1540,
+          "sales_change": -474,
+          "brand_url": "https://product.360che.com/b_1628.html"
+        },
+        {
+          "rank": 31,
+          "brand": "江淮新能源轻卡",
+          "sales": 1352,
+          "sales_change": -27,
+          "brand_url": "https://product.360che.com/b_1607.html"
+        },
+        {
+          "rank": 32,
+          "brand": "蓝擎汽车",
+          "sales": 1052,
+          "sales_change": -344,
+          "brand_url": "https://product.360che.com/b_1617.html"
+        },
+        {
+          "rank": 33,
+          "brand": "东风睿立达",
+          "sales": 1003,
+          "sales_change": -314,
+          "brand_url": "https://product.360che.com/b_1674.html"
+        },
+        {
+          "rank": 34,
+          "brand": "中国重汽成都商用车",
+          "sales": 996,
+          "sales_change": -267,
+          "brand_url": "https://product.360che.com/b_318.html"
+        },
+        {
+          "rank": 35,
+          "brand": "东风小康",
+          "sales": 974,
+          "sales_change": -159,
+          "brand_url": "https://product.360che.com/b_378.html"
+        },
+        {
+          "rank": 36,
+          "brand": "庆铃五十铃",
+          "sales": 961,
+          "sales_change": -103,
+          "brand_url": "https://product.360che.com/b_27.html"
+        },
+        {
+          "rank": 37,
+          "brand": "江淮帅铃",
+          "sales": 953,
+          "sales_change": 69,
+          "brand_url": "https://product.360che.com/b_12.html"
+        },
+        {
+          "rank": 38,
+          "brand": "江淮康铃",
+          "sales": 938,
+          "sales_change": -120,
+          "brand_url": "https://product.360che.com/b_1147.html"
+        },
+        {
+          "rank": 39,
+          "brand": "鑫源汽车",
+          "sales": 931,
+          "sales_change": -57,
+          "brand_url": "https://product.360che.com/b_1583.html"
+        },
+        {
+          "rank": 40,
+          "brand": "福田卡文",
+          "sales": 924,
+          "sales_change": -127,
+          "brand_url": "https://product.360che.com/b_1675.html"
+        },
+        {
+          "rank": 41,
+          "brand": "东风途逸",
+          "sales": 915,
+          "sales_change": -138,
+          "brand_url": "https://product.360che.com/b_1244.html"
+        },
+        {
+          "rank": 42,
+          "brand": "东风小霸王",
+          "sales": 875,
+          "sales_change": -147,
+          "brand_url": "https://product.360che.com/b_1177.html"
+        },
+        {
+          "rank": 43,
+          "brand": "福田瑞沃",
+          "sales": 874,
+          "sales_change": -190,
+          "brand_url": "https://product.360che.com/b_1129.html"
+        },
+        {
+          "rank": 44,
+          "brand": "南京依维柯",
+          "sales": 810,
+          "sales_change": -16,
+          "brand_url": "https://product.360che.com/b_15.html"
+        },
+        {
+          "rank": 45,
+          "brand": "成功汽车",
+          "sales": 744,
+          "sales_change": -147,
+          "brand_url": "https://product.360che.com/b_1180.html"
+        },
+        {
+          "rank": 46,
+          "brand": "东风多利卡",
+          "sales": 690,
+          "sales_change": -113,
+          "brand_url": "https://product.360che.com/b_1163.html"
+        },
+        {
+          "rank": 47,
+          "brand": "飞碟新能源",
+          "sales": 652,
+          "sales_change": -191,
+          "brand_url": "https://product.360che.com/b_1616.html"
+        },
+        {
+          "rank": 48,
+          "brand": "东风福瑞通",
+          "sales": 610,
+          "sales_change": 557,
+          "brand_url": "https://product.360che.com/b_1687.html"
+        },
+        {
+          "rank": 49,
+          "brand": "江淮恺达",
+          "sales": 601,
+          "sales_change": -72,
+          "brand_url": "https://product.360che.com/b_1520.html"
+        },
+        {
+          "rank": 50,
+          "brand": "徐工轻卡",
+          "sales": 567,
+          "sales_change": -151,
+          "brand_url": "https://product.360che.com/b_1611.html"
+        }
+      ],
+      "electric": [
+        {
+          "rank": 1,
+          "brand": "远程新能源商用车",
+          "sales": 14162,
+          "sales_change": -1486,
+          "brand_url": "https://product.360che.com/b_1218.html"
+        },
+        {
+          "rank": 2,
+          "brand": "长安跨越",
+          "sales": 7398,
+          "sales_change": 1208,
+          "brand_url": "https://product.360che.com/b_228.html"
+        },
+        {
+          "rank": 3,
+          "brand": "徐工重卡",
+          "sales": 5056,
+          "sales_change": -57,
+          "brand_url": "https://product.360che.com/b_232.html"
+        },
+        {
+          "rank": 4,
+          "brand": "上汽通用五菱",
+          "sales": 4860,
+          "sales_change": -248,
+          "brand_url": "https://product.360che.com/b_370.html"
+        },
+        {
+          "rank": 5,
+          "brand": "江铃汽车",
+          "sales": 4757,
+          "sales_change": -374,
+          "brand_url": "https://product.360che.com/b_28.html"
+        },
+        {
+          "rank": 6,
+          "brand": "奇瑞商用车",
+          "sales": 3407,
+          "sales_change": -1326,
+          "brand_url": "https://product.360che.com/b_374.html"
+        },
+        {
+          "rank": 7,
+          "brand": "上汽大通",
+          "sales": 3286,
+          "sales_change": -546,
+          "brand_url": "https://product.360che.com/b_1134.html"
+        },
+        {
+          "rank": 8,
+          "brand": "三一重卡",
+          "sales": 2351,
+          "sales_change": -1450,
+          "brand_url": "https://product.360che.com/b_980.html"
+        },
+        {
+          "rank": 9,
+          "brand": "长安凯程",
+          "sales": 2277,
+          "sales_change": -264,
+          "brand_url": "https://product.360che.com/b_368.html"
+        },
+        {
+          "rank": 10,
+          "brand": "上汽跃进",
+          "sales": 2139,
+          "sales_change": 1444,
+          "brand_url": "https://product.360che.com/b_1207.html"
+        },
+        {
+          "rank": 11,
+          "brand": "重汽豪沃(HOWO)",
+          "sales": 1843,
+          "sales_change": -1102,
+          "brand_url": "https://product.360che.com/b_1165.html"
+        },
+        {
+          "rank": 12,
+          "brand": "福田祥菱",
+          "sales": 1765,
+          "sales_change": 524,
+          "brand_url": "https://product.360che.com/b_1255.html"
+        },
+        {
+          "rank": 13,
+          "brand": "一汽解放",
+          "sales": 1716,
+          "sales_change": -1389,
+          "brand_url": "https://product.360che.com/b_5.html"
+        },
+        {
+          "rank": 14,
+          "brand": "瑞驰",
+          "sales": 1696,
+          "sales_change": -160,
+          "brand_url": "https://product.360che.com/b_1291.html"
+        },
+        {
+          "rank": 15,
+          "brand": "欧曼重卡",
+          "sales": 1607,
+          "sales_change": -838,
+          "brand_url": "https://product.360che.com/b_13.html"
+        },
+        {
+          "rank": 16,
+          "brand": "比亚迪",
+          "sales": 1570,
+          "sales_change": -45,
+          "brand_url": "https://product.360che.com/b_1154.html"
+        },
+        {
+          "rank": 17,
+          "brand": "菱势汽车(五菱新能源)",
+          "sales": 1540,
+          "sales_change": -474,
+          "brand_url": "https://product.360che.com/b_1628.html"
+        },
+        {
+          "rank": 18,
+          "brand": "图雅诺",
+          "sales": 1402,
+          "sales_change": 100,
+          "brand_url": "https://product.360che.com/b_1128.html"
+        },
+        {
+          "rank": 19,
+          "brand": "陕汽重卡",
+          "sales": 1364,
+          "sales_change": -337,
+          "brand_url": "https://product.360che.com/b_8.html"
+        },
+        {
+          "rank": 20,
+          "brand": "江淮新能源轻卡",
+          "sales": 1352,
+          "sales_change": -27,
+          "brand_url": "https://product.360che.com/b_1607.html"
+        },
+        {
+          "rank": 21,
+          "brand": "重汽HOWO轻卡",
+          "sales": 1273,
+          "sales_change": -332,
+          "brand_url": "https://product.360che.com/b_1151.html"
+        },
+        {
+          "rank": 22,
+          "brand": "重汽汕德卡",
+          "sales": 1256,
+          "sales_change": -355,
+          "brand_url": "https://product.360che.com/b_1164.html"
+        },
+        {
+          "rank": 23,
+          "brand": "东风柳汽乘龙",
+          "sales": 1230,
+          "sales_change": -536,
+          "brand_url": "https://product.360che.com/b_30.html"
+        },
+        {
+          "rank": 24,
+          "brand": "陕汽商用车",
+          "sales": 1208,
+          "sales_change": 223,
+          "brand_url": "https://product.360che.com/b_1140.html"
+        },
+        {
+          "rank": 25,
+          "brand": "福田奥铃",
+          "sales": 1140,
+          "sales_change": -299,
+          "brand_url": "https://product.360che.com/b_1126.html"
+        },
+        {
+          "rank": 26,
+          "brand": "一汽解放轻卡",
+          "sales": 949,
+          "sales_change": -274,
+          "brand_url": "https://product.360che.com/b_1182.html"
+        },
+        {
+          "rank": 27,
+          "brand": "福田欧马可",
+          "sales": 943,
+          "sales_change": -21,
+          "brand_url": "https://product.360che.com/b_1125.html"
+        },
+        {
+          "rank": 28,
+          "brand": "青岛解放",
+          "sales": 925,
+          "sales_change": -594,
+          "brand_url": "https://product.360che.com/b_934.html"
+        },
+        {
+          "rank": 29,
+          "brand": "福田卡文",
+          "sales": 924,
+          "sales_change": -127,
+          "brand_url": "https://product.360che.com/b_1675.html"
+        },
+        {
+          "rank": 30,
+          "brand": "蓝擎汽车",
+          "sales": 873,
+          "sales_change": -328,
+          "brand_url": "https://product.360che.com/b_1617.html"
+        },
+        {
+          "rank": 31,
+          "brand": "东风睿立达",
+          "sales": 821,
+          "sales_change": -344,
+          "brand_url": "https://product.360che.com/b_1674.html"
+        },
+        {
+          "rank": 32,
+          "brand": "东风商用车",
+          "sales": 694,
+          "sales_change": -230,
+          "brand_url": "https://product.360che.com/b_6.html"
+        },
+        {
+          "rank": 33,
+          "brand": "飞碟新能源",
+          "sales": 652,
+          "sales_change": -191,
+          "brand_url": "https://product.360che.com/b_1616.html"
+        },
+        {
+          "rank": 34,
+          "brand": "时代汽车",
+          "sales": 641,
+          "sales_change": -151,
+          "brand_url": "https://product.360che.com/b_35.html"
+        },
+        {
+          "rank": 35,
+          "brand": "东风福瑞通",
+          "sales": 569,
+          "sales_change": 569,
+          "brand_url": "https://product.360che.com/b_1687.html"
+        },
+        {
+          "rank": 36,
+          "brand": "徐工轻卡",
+          "sales": 566,
+          "sales_change": -148,
+          "brand_url": "https://product.360che.com/b_1611.html"
+        },
+        {
+          "rank": 37,
+          "brand": "DeepWay",
+          "sales": 503,
+          "sales_change": 113,
+          "brand_url": "https://product.360che.com/b_1632.html"
+        },
+        {
+          "rank": 38,
+          "brand": "三一工程车辆",
+          "sales": 490,
+          "sales_change": -353,
+          "brand_url": "https://product.360che.com/b_1636.html"
+        },
+        {
+          "rank": 39,
+          "brand": "货拉拉多拉",
+          "sales": 489,
+          "sales_change": -105,
+          "brand_url": "https://product.360che.com/b_1679.html"
+        },
+        {
+          "rank": 40,
+          "brand": "质子汽车",
+          "sales": 400,
+          "sales_change": -474,
+          "brand_url": "https://product.360che.com/b_1635.html"
+        },
+        {
+          "rank": 41,
+          "brand": "宇通重卡",
+          "sales": 390,
+          "sales_change": -88,
+          "brand_url": "https://product.360che.com/b_1610.html"
+        },
+        {
+          "rank": 42,
+          "brand": "东风乾坤",
+          "sales": 390,
+          "sales_change": -654,
+          "brand_url": "https://product.360che.com/b_1680.html"
+        },
+        {
+          "rank": 43,
+          "brand": "广汽领程",
+          "sales": 327,
+          "sales_change": -143,
+          "brand_url": "https://product.360che.com/b_34.html"
+        },
+        {
+          "rank": 44,
+          "brand": "东风股份",
+          "sales": 326,
+          "sales_change": -70,
+          "brand_url": "https://product.360che.com/b_36.html"
+        },
+        {
+          "rank": 45,
+          "brand": "鑫源汽车",
+          "sales": 325,
+          "sales_change": -12,
+          "brand_url": "https://product.360che.com/b_1583.html"
+        },
+        {
+          "rank": 46,
+          "brand": "宇通轻卡",
+          "sales": 280,
+          "sales_change": -91,
+          "brand_url": "https://product.360che.com/b_1564.html"
+        },
+        {
+          "rank": 47,
+          "brand": "上汽红岩",
+          "sales": 259,
+          "sales_change": 35,
+          "brand_url": "https://product.360che.com/b_11.html"
+        },
+        {
+          "rank": 48,
+          "brand": "雷驰",
+          "sales": 253,
+          "sales_change": -292,
+          "brand_url": "https://product.360che.com/b_1620.html"
+        },
+        {
+          "rank": 49,
+          "brand": "江淮恺达",
+          "sales": 222,
+          "sales_change": -97,
+          "brand_url": "https://product.360che.com/b_1520.html"
+        },
+        {
+          "rank": 50,
+          "brand": "中国重汽成都商用车",
+          "sales": 195,
+          "sales_change": -214,
+          "brand_url": "https://product.360che.com/b_318.html"
+        }
+      ]
+    },
     "2026-06": {
       "all": [
         {

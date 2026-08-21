@@ -40,6 +40,8 @@ function quarterLabel(month) {
   if (!month) return month;
   const parts = month.split("-");
   if (parts.length < 2) return month;
+  // 半年度基数记录（如 2025-H1）直接原样显示，不要解析成 QNaN
+  if (parts[1] === "H1" || parts[1] === "H2") return month;
   const q = Math.ceil(parseInt(parts[1], 10) / 3);
   return `${parts[0]}Q${q}`;
 }
@@ -328,9 +330,11 @@ function expressCard(comp) {
   const el = document.createElement("div");
   el.className = "card express-card";
   const L = comp.latest;
+  // 半年度（-H1）记录仅用于 H1 同比基数，不进入季度/月度序列展示
+  const qs = comp.series.filter((r) => !r.month.endsWith("-H1"));
   const momLabel = comp.quarterly ? "较上季" : "环比";
   const mom = (cur, prev) => (prev ? (cur - prev) / prev * 100 : null);
-  const prev = comp.series.length > 1 ? comp.series[comp.series.length - 2] : null;
+  const prev = qs.length > 1 ? qs[qs.length - 2] : null;
   const kpi = (label, val, unit, yoy, p) => {
     const yc = chgClass(yoy);
     const pc = chgClass(p);
@@ -353,12 +357,12 @@ function expressCard(comp) {
   // 迷你走势（优先营收，无数据则退而取业务量/单票，最后留空）
   const pickSpark = () => {
     for (const k of ["revenue", "volume", "price"]) {
-      if (comp.series.some((s) => s[k] != null)) return comp.series.map((s) => s[k]);
+      if (qs.some((s) => s[k] != null)) return qs.map((s) => s[k]);
     }
-    return comp.series.map(() => null);
+    return qs.map(() => null);
   };
   el.querySelector(`#spark-${comp.company}`).appendChild(
-    lineChart(comp.series.map((s) => s.month), pickSpark(), (v) => fmt(v), comp.color, "",
+    lineChart(qs.map((s) => s.month), pickSpark(), (v) => fmt(v), comp.color, "",
       260, 56, false, comp.quarterly ? quarterLabel : null));
   el.addEventListener("click", () => toggleExpressDetail(comp, el));
   return el;
@@ -415,40 +419,50 @@ function expressDetail(comp) {
   wrap.appendChild(chartBox);
   chartBox.appendChild(drawMetric(comp, metrics[0]));
 
-  // 营业成本细分（中通等季度披露公司）
-  if (comp.cost_breakdown && comp.cost_breakdown.length) {
+  // 营业成本细分（中通等季度披露公司）：按季度分别列出 Q1 / Q2
+  if (comp.cost_breakdown_by_month && Object.keys(comp.cost_breakdown_by_month).length) {
     // 单票成本绝对变化（元）→ 文案：降X分 / 升X分 / 持平 / —
     const unitDeltaText = (d) =>
       d == null ? "—"
         : d < 0 ? `降${Math.round(-d * 100)}分`
         : d > 0 ? `升${Math.round(d * 100)}分`
         : "持平";
+    // 按时间升序排列各季度（便于从上到下 Q1 → Q2 → …）
+    const months = Object.keys(comp.cost_breakdown_by_month).sort();
     const h4c = document.createElement("h4");
     h4c.textContent = "营业成本细分（单票成本 = 成本 ÷ 业务量）";
     wrap.appendChild(h4c);
-    const ct = document.createElement("table");
-    ct.className = "tbl exp-tbl cost-tbl";
-    ct.innerHTML = `<thead><tr><th>成本项目</th><th>金额(亿)</th><th>占营收比</th><th>同比</th><th>单票成本(元)</th><th>单票成本变化</th></tr></thead>`;
-    const ctb = document.createElement("tbody");
-    comp.cost_breakdown.forEach((item) => {
-      const tr = document.createElement("tr");
-      if (item.total) tr.classList.add("cost-total");
-      tr.innerHTML =
-        `<td>${item.name}</td>` +
-        `<td class="tabular-nums">${fmt(item.amount)}</td>` +
-        `<td class="tabular-nums">${item.pct_revenue != null ? item.pct_revenue + "%" : "—"}</td>` +
-        `<td class="${chgClass(item.yoy)}">${pct(item.yoy)}</td>` +
-        `<td class="tabular-nums">${fmt(item.unit_cost)}</td>` +
-        `<td class="${chgClass(item.unit_delta)}">${unitDeltaText(item.unit_delta)}</td>`;
-      ctb.appendChild(tr);
+    months.forEach((m) => {
+      const items = comp.cost_breakdown_by_month[m];
+      const sub = document.createElement("div");
+      sub.className = "cost-subtitle";
+      sub.textContent = comp.quarterly ? `${quarterLabel(m)}（${m}）` : m;
+      wrap.appendChild(sub);
+      const ct = document.createElement("table");
+      ct.className = "tbl exp-tbl cost-tbl";
+      ct.innerHTML = `<thead><tr><th>成本项目</th><th>金额(亿)</th><th>占营收比</th><th>同比</th><th>单票成本(元)</th><th>单票成本变化</th></tr></thead>`;
+      const ctb = document.createElement("tbody");
+      items.forEach((item) => {
+        const tr = document.createElement("tr");
+        if (item.total) tr.classList.add("cost-total");
+        tr.innerHTML =
+          `<td>${item.name}</td>` +
+          `<td class="tabular-nums">${fmt(item.amount)}</td>` +
+          `<td class="tabular-nums">${item.pct_revenue != null ? item.pct_revenue + "%" : "—"}</td>` +
+          `<td class="${chgClass(item.yoy)}">${pct(item.yoy)}</td>` +
+          `<td class="tabular-nums">${fmt(item.unit_cost)}</td>` +
+          `<td class="${chgClass(item.unit_delta)}">${unitDeltaText(item.unit_delta)}</td>`;
+        ctb.appendChild(tr);
+      });
+      ct.appendChild(ctb);
+      wrap.appendChild(ct);
     });
-    ct.appendChild(ctb);
-    wrap.appendChild(ct);
   }
 
-  // 全指标时序表（含同比、环比）
+  // 全指标时序表（含同比、环比）：过滤掉 -H1 半年度基数记录
+  const qs = comp.series.filter((r) => !r.month.endsWith("-H1"));
   const h4 = document.createElement("h4");
-  h4.textContent = `${comp.quarterly ? "季度时序" : "月度时序"}（共 ${comp.series.length} 期，新→旧）`;
+  h4.textContent = `${comp.quarterly ? "季度时序" : "月度时序"}（共 ${qs.length} 期，新→旧）`;
   wrap.appendChild(h4);
   const tbl = document.createElement("table");
   tbl.className = "tbl exp-tbl";
@@ -460,7 +474,7 @@ function expressDetail(comp) {
     <th>净利润(亿)</th><th>净利润同比</th><th>净利润环比</th>
   </tr></thead>`;
   const tb = document.createElement("tbody");
-  const s = comp.series;
+  const s = qs;
   for (let i = s.length - 1; i >= 0; i--) {
     const r = s[i];
     const prev = i > 0 ? s[i - 1] : null;
@@ -520,19 +534,26 @@ function expressDetail(comp) {
       const h1Vol = h1Series.reduce((a, r) => a + (r.volume || 0), 0);
       const h1Rev = h1Series.reduce((a, r) => a + (r.revenue || 0), 0);
       const h1Profit = h1Series.reduce((a, r) => a + (r.profit || 0), 0);
+      // 上一年 H1 基数（形如 2025-H1 的半年度记录），用于计算 H1 同比
+      const h1Prev = comp.series.find((r) => r.month === `${parseInt(h1Series[0].month.slice(0, 4), 10) - 1}-H1`);
+      const h1yoy = (cur, prev) => (prev != null && prev !== 0 ? (cur - prev) / prev * 100 : null);
+      const h1yoyCell = (cur, prev) => {
+        const y = h1yoy(cur, prev);
+        return `<td class="${chgClass(y)}">${pct(y)}</td>`;
+      };
       const h1h = document.createElement("h4");
       h1h.textContent = "半年度合计（H1，当年 Q1+Q2 求和）";
       wrap.appendChild(h1h);
       const t1 = document.createElement("table");
       t1.className = "tbl exp-tbl";
-      t1.innerHTML = `<thead><tr><th>指标</th><th>H1 合计</th><th>口径</th></tr></thead>`;
+      t1.innerHTML = `<thead><tr><th>指标</th><th>H1 合计</th><th>同比</th><th>口径</th></tr></thead>`;
       const tb1 = document.createElement("tbody");
-      tb1.innerHTML = `<tr><td>业务量</td><td>${fmt(h1Vol)} 亿件</td><td>Q1+Q2 合计</td></tr>`
+      tb1.innerHTML = `<tr><td>业务量</td><td>${fmt(h1Vol)} 亿件</td>${h1yoyCell(h1Vol, h1Prev && h1Prev.volume)}<td>Q1+Q2 合计</td></tr>`
         + (h1Rev
-            ? `<tr><td>业务收入</td><td>${fmt(h1Rev)} 亿</td><td>Q1+Q2 合计</td></tr>`
-            : `<tr><td>业务收入</td><td class="flat">极兔未披露</td><td>公告仅公布包裹量</td></tr>`)
+            ? `<tr><td>业务收入</td><td>${fmt(h1Rev)} 亿</td>${h1yoyCell(h1Rev, h1Prev && h1Prev.revenue)}<td>Q1+Q2 合计</td></tr>`
+            : `<tr><td>业务收入</td><td class="flat">极兔未披露</td><td>—</td><td>公告仅公布包裹量</td></tr>`)
         + (h1Profit
-            ? `<tr><td>净利润</td><td>${fmt(h1Profit)} 亿</td><td>Q1+Q2 合计</td></tr>`
+            ? `<tr><td>净利润</td><td>${fmt(h1Profit)} 亿</td>${h1yoyCell(h1Profit, h1Prev && h1Prev.profit)}<td>Q1+Q2 合计</td></tr>`
             : "");
       t1.appendChild(tb1);
       const sc3 = document.createElement("div");
@@ -969,7 +990,9 @@ function drawSpbMetric(s, m) {
 }
 
 function drawMetric(comp, m) {
-  const vals = comp.series.map((s) => s[m.key]);
+  // 半年度（-H1）基数不进入走势图
+  const qs = comp.series.filter((r) => !r.month.endsWith("-H1"));
+  const vals = qs.map((s) => s[m.key]);
   // 该指标全为空（如极兔未披露营收/单票）：给出占位说明而非破图
   if (vals.every((v) => v == null)) {
     const div = document.createElement("div");
@@ -977,7 +1000,7 @@ function drawMetric(comp, m) {
     div.textContent = `${m.name}：该公司未披露（公告未公布该指标）`;
     return div;
   }
-  const labels = comp.series.map((s) => s.month);
+  const labels = qs.map((s) => s.month);
   return lineChart(labels, vals, (v) => fmt(v), comp.color,
     `${m.name}走势（${m.unit}）`, 440, 180, true, comp.quarterly ? quarterLabel : null);
 }
