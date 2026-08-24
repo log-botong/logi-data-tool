@@ -3,35 +3,35 @@
   "lines": [
     {
       "code": "cbgfi",
-      "pub_date": "2026-08-14",
-      "line_name": "锦州-广州",
-      "unit": "",
-      "weight": "",
-      "prev_value": 71.0,
-      "curr_value": 70.5,
-      "change_value": -0.5,
-      "change_is_pct": 0
-    },
-    {
-      "code": "cbgfi",
-      "pub_date": "2026-08-14",
+      "pub_date": "2026-08-21",
       "line_name": "营口-深圳",
       "unit": "",
       "weight": "",
-      "prev_value": 70.2,
-      "curr_value": 70.0,
-      "change_value": -0.2,
+      "prev_value": 70.0,
+      "curr_value": 66.2,
+      "change_value": -3.8,
       "change_is_pct": 0
     },
     {
       "code": "cbgfi",
-      "pub_date": "2026-08-14",
+      "pub_date": "2026-08-21",
+      "line_name": "锦州-广州",
+      "unit": "",
+      "weight": "",
+      "prev_value": 70.5,
+      "curr_value": 65.8,
+      "change_value": -4.7,
+      "change_is_pct": 0
+    },
+    {
+      "code": "cbgfi",
+      "pub_date": "2026-08-21",
       "line_name": "锦州-靖江",
       "unit": "",
       "weight": "",
-      "prev_value": 60.8,
-      "curr_value": 60.0,
-      "change_value": -0.8,
+      "prev_value": 60.0,
+      "curr_value": 53.6,
+      "change_value": -6.4,
       "change_is_pct": 0
     }
   ]

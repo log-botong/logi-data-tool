@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_med",
+      "pub_date": "2026-08-21",
+      "comprehensive_value": 2883.78,
+      "prev_value": 2957.57,
+      "change_value": -2.5,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-08-24T10:06:46"
+    },
+    {
+      "code": "ccfi_med",
       "pub_date": "2026-08-14",
       "comprehensive_value": 2957.57,
       "prev_value": 3013.2,

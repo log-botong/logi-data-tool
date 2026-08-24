@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cctfi_coastal",
+      "pub_date": "2026-08-21",
+      "comprehensive_value": 997.67,
+      "prev_value": 988.86,
+      "change_value": 8.81,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cctfi_coastal",
+      "fetched_at": "2026-08-24T10:06:46"
+    },
+    {
+      "code": "cctfi_coastal",
       "pub_date": "2026-08-14",
       "comprehensive_value": 988.86,
       "prev_value": 985.11,
