@@ -1,4 +1,93 @@
 {
   "code": "twfi",
-  "lines": []
+  "lines": [
+    {
+      "code": "twfi",
+      "pub_date": "2026-08-26",
+      "line_name": "华东地区（上海）——台湾地区（基隆、台中、高雄）",
+      "unit": "",
+      "weight": "",
+      "prev_value": 2620.96,
+      "curr_value": 2615.31,
+      "change_value": -0.2,
+      "change_is_pct": 1
+    },
+    {
+      "code": "twfi",
+      "pub_date": "2026-08-26",
+      "line_name": "出口成分指数",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1865.93,
+      "curr_value": 1861.33,
+      "change_value": -0.2,
+      "change_is_pct": 1
+    },
+    {
+      "code": "twfi",
+      "pub_date": "2026-08-26",
+      "line_name": "北方地区（天津、青岛、日照）——台湾地区（基隆、台中、高雄）",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1707.22,
+      "curr_value": 1684.12,
+      "change_value": -1.4,
+      "change_is_pct": 1
+    },
+    {
+      "code": "twfi",
+      "pub_date": "2026-08-26",
+      "line_name": "东南地区（厦门、福州）——台湾地区（基隆、台中、高雄）",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1043.93,
+      "curr_value": 1050.01,
+      "change_value": 0.6,
+      "change_is_pct": 1
+    },
+    {
+      "code": "twfi",
+      "pub_date": "2026-08-26",
+      "line_name": "台湾地区（基隆、台中、高雄）——北方地区（天津、青岛、日照）",
+      "unit": "",
+      "weight": "",
+      "prev_value": 930.56,
+      "curr_value": 963.22,
+      "change_value": 3.5,
+      "change_is_pct": 1
+    },
+    {
+      "code": "twfi",
+      "pub_date": "2026-08-26",
+      "line_name": "台湾地区（基隆、台中、高雄）——东南地区（厦门、福州）",
+      "unit": "",
+      "weight": "",
+      "prev_value": 963.83,
+      "curr_value": 896.51,
+      "change_value": -7.0,
+      "change_is_pct": 1
+    },
+    {
+      "code": "twfi",
+      "pub_date": "2026-08-26",
+      "line_name": "进口成分指数",
+      "unit": "",
+      "weight": "",
+      "prev_value": 915.68,
+      "curr_value": 881.64,
+      "change_value": -3.7,
+      "change_is_pct": 1
+    },
+    {
+      "code": "twfi",
+      "pub_date": "2026-08-26",
+      "line_name": "台湾地区（基隆、台中、高雄）——华东地区（上海）",
+      "unit": "",
+      "weight": "",
+      "prev_value": 869.42,
+      "curr_value": 840.22,
+      "change_value": -3.4,
+      "change_is_pct": 1
+    }
+  ]
 }

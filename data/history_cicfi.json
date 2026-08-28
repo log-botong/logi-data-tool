@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cicfi",
+      "pub_date": "2026-08-26",
+      "comprehensive_value": 794.95,
+      "prev_value": 782.15,
+      "change_value": 1.6,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-08-27T18:00:02"
+    },
+    {
+      "code": "cicfi",
       "pub_date": "2026-08-19",
       "comprehensive_value": 782.15,
       "prev_value": 791.39,
