@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cicfi_korea",
+      "pub_date": "2026-09-02",
+      "comprehensive_value": 895.16,
+      "prev_value": 947.88,
+      "change_value": -5.6,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-09-04T10:13:02"
+    },
+    {
+      "code": "cicfi_korea",
       "pub_date": "2026-08-26",
       "comprehensive_value": 947.88,
       "prev_value": 917.1,
