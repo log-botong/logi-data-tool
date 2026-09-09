@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "scfis",
+      "pub_date": "2026-09-07",
+      "comprehensive_value": 2882.69,
+      "prev_value": 3047.2410147991545,
+      "change_value": -5.4,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=scfis",
+      "fetched_at": "2026-09-09T10:08:00"
+    },
+    {
+      "code": "scfis",
       "pub_date": "2026-08-31",
       "comprehensive_value": 3047.62,
       "prev_value": 3238.703506907545,
