@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cicfi_pgrs",
+      "pub_date": "2026-09-09",
+      "comprehensive_value": 2876.52,
+      "prev_value": 2772.9,
+      "change_value": 3.7,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-09-11T10:06:33"
+    },
+    {
+      "code": "cicfi_pgrs",
       "pub_date": "2026-09-02",
       "comprehensive_value": 2772.9,
       "prev_value": 3367.12,

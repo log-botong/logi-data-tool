@@ -323,16 +323,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_sea",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 605.7,
-          "prev_value": 610.99,
-          "change_value": -0.9,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 614.59,
+          "prev_value": 605.7,
+          "change_value": 1.5,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -348,16 +348,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_weafrica",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 422.71,
-          "prev_value": 438.32,
-          "change_value": -3.6,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 380.94,
+          "prev_value": 422.71,
+          "change_value": -9.9,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -373,16 +373,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_samerica",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 963.43,
-          "prev_value": 1020.62,
-          "change_value": -5.6,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 982.92,
+          "prev_value": 963.43,
+          "change_value": 2.0,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -398,16 +398,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_safrica",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 1013.43,
-          "prev_value": 1108.9,
-          "change_value": -8.6,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 932.91,
+          "prev_value": 1013.43,
+          "change_value": -7.9,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -423,16 +423,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_med",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 781.18,
-          "prev_value": 801.7,
-          "change_value": -2.6,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 752.18,
+          "prev_value": 781.18,
+          "change_value": -3.7,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -448,16 +448,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_japan",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 998.07,
-          "prev_value": 981.07,
-          "change_value": 1.7,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 995.56,
+          "prev_value": 998.07,
+          "change_value": -0.3,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -473,16 +473,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_europe",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 471.07,
-          "prev_value": 479.81,
-          "change_value": -1.8,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 471.19,
+          "prev_value": 471.07,
+          "change_value": 0.0,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -498,16 +498,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_pgrs",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 2772.9,
-          "prev_value": 3367.12,
-          "change_value": -17.6,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 2876.52,
+          "prev_value": 2772.9,
+          "change_value": 3.7,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -523,16 +523,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_anz",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 853.07,
-          "prev_value": 929.78,
-          "change_value": -8.3,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 900.1,
+          "prev_value": 853.07,
+          "change_value": 5.5,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -548,16 +548,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_eamerica",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 604.76,
-          "prev_value": 614.09,
-          "change_value": -1.5,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 604.22,
+          "prev_value": 604.76,
+          "change_value": -0.1,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -573,16 +573,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_wamerica",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 828.31,
-          "prev_value": 846.99,
-          "change_value": -2.2,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 822.89,
+          "prev_value": 828.31,
+          "change_value": -0.7,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -598,16 +598,16 @@
         "parent": "cicfi",
         "latest": {
           "code": "cicfi_korea",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 895.16,
-          "prev_value": 947.88,
-          "change_value": -5.6,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 888.24,
+          "prev_value": 895.16,
+          "change_value": -0.8,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:33"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       }
@@ -727,16 +727,16 @@
         "parent": null,
         "latest": {
           "code": "ctfi",
-          "pub_date": "2026-09-09",
-          "comprehensive_value": 9036.25,
-          "prev_value": 8771.29,
-          "change_value": 264.96,
+          "pub_date": "2026-09-11",
+          "comprehensive_value": 9994.22,
+          "prev_value": 9305.74,
+          "change_value": 688.48,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
-          "fetched_at": "2026-09-09T10:08:00"
+          "fetched_at": "2026-09-11T10:06:32"
         },
-        "history_count": 23,
+        "history_count": 24,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
         "composite": true
       }
@@ -754,16 +754,16 @@
         "parent": null,
         "latest": {
           "code": "cbcfi",
-          "pub_date": "2026-09-08",
-          "comprehensive_value": 851.46,
-          "prev_value": 860.95,
-          "change_value": -9.49,
+          "pub_date": "2026-09-10",
+          "comprehensive_value": 801.47,
+          "prev_value": 837.92,
+          "change_value": -36.45,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
-          "fetched_at": "2026-09-09T10:08:00"
+          "fetched_at": "2026-09-11T10:06:32"
         },
-        "history_count": 26,
+        "history_count": 27,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
         "composite": true
       },
@@ -829,16 +829,16 @@
         "parent": null,
         "latest": {
           "code": "cbofi",
-          "pub_date": "2026-09-07",
-          "comprehensive_value": 873.21,
-          "prev_value": 875.6800000000001,
-          "change_value": -2.47,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 866.84,
+          "prev_value": 873.21,
+          "change_value": -6.37,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbofi",
-          "fetched_at": "2026-09-09T10:08:00"
+          "fetched_at": "2026-09-11T10:06:32"
         },
-        "history_count": 21,
+        "history_count": 22,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbofi",
         "composite": true
       },
@@ -854,16 +854,16 @@
         "parent": null,
         "latest": {
           "code": "cdfi",
-          "pub_date": "2026-09-08",
-          "comprehensive_value": 1790.04,
-          "prev_value": 1793.8899999999999,
-          "change_value": -3.85,
+          "pub_date": "2026-09-10",
+          "comprehensive_value": 1796.38,
+          "prev_value": 1801.22,
+          "change_value": -4.84,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cdfi",
-          "fetched_at": "2026-09-09T10:08:00"
+          "fetched_at": "2026-09-11T10:06:32"
         },
-        "history_count": 25,
+        "history_count": 26,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cdfi",
         "composite": true
       },
@@ -879,16 +879,16 @@
         "parent": null,
         "latest": {
           "code": "fdi",
-          "pub_date": "2026-09-08",
-          "comprehensive_value": 2171.79,
-          "prev_value": 2182.18,
-          "change_value": -10.39,
+          "pub_date": "2026-09-10",
+          "comprehensive_value": 2193.77,
+          "prev_value": 2200.41,
+          "change_value": -6.64,
           "change_is_pct": 0,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
-          "fetched_at": "2026-09-09T10:08:00"
+          "fetched_at": "2026-09-11T10:06:32"
         },
-        "history_count": 25,
+        "history_count": 26,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=fdi",
         "composite": true
       }
@@ -931,16 +931,16 @@
         "parent": null,
         "latest": {
           "code": "cicfi",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 764.42,
-          "prev_value": 794.95,
-          "change_value": -3.8,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 762.57,
+          "prev_value": 764.42,
+          "change_value": -0.2,
           "change_is_pct": 1,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:32"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
         "composite": true
       },
@@ -1031,21 +1031,21 @@
         "parent": null,
         "latest": {
           "code": "twfi",
-          "pub_date": "2026-09-02",
-          "comprehensive_value": 1362.75,
-          "prev_value": 1371.48,
-          "change_value": -0.6,
+          "pub_date": "2026-09-09",
+          "comprehensive_value": 1377.29,
+          "prev_value": 1362.75,
+          "change_value": 1.1,
           "change_is_pct": 1,
           "unit": "点",
           "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=twfi",
-          "fetched_at": "2026-09-04T10:13:02"
+          "fetched_at": "2026-09-11T10:06:32"
         },
-        "history_count": 8,
+        "history_count": 9,
         "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=twfi",
         "composite": true
       }
     ]
   },
-  "last_updated": "2026-09-09T10:08:00",
+  "last_updated": "2026-09-11T10:06:33",
   "source_home": "https://www.sse.net.cn/home"
 }

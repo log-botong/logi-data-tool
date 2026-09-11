@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ctfi",
+      "pub_date": "2026-09-11",
+      "comprehensive_value": 9994.22,
+      "prev_value": 9305.74,
+      "change_value": 688.48,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
+      "fetched_at": "2026-09-11T10:06:32"
+    },
+    {
+      "code": "ctfi",
       "pub_date": "2026-09-09",
       "comprehensive_value": 9036.25,
       "prev_value": 8771.29,
