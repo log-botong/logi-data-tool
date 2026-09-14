@@ -184,6 +184,16 @@ body {
 .cost-tbl .cost-total { font-weight: 700; background: #f0f7f6; }
 .cost-tbl .cost-total td { border-top: 2px solid var(--line); }
 .tbl-scroll { overflow-x: auto; }
+/* 极兔半年度财报（美元口径）：卡片摘要行 + 损益/单票结构表 */
+.exp-fin { margin-top: 6px; font-size: 11px; color: #166534; background: #f0fdf4;
+  border: 1px solid #bbf7d0; border-radius: 6px; padding: 4px 8px; line-height: 1.5; }
+.fin-tbl { min-width: 460px; }
+.fin-tbl .fin-indent td:first-child { padding-left: 20px; color: var(--muted); }
+.fin-tbl .fin-profit { font-weight: 700; background: #f0fdf4; }
+.fin-tbl .fin-profit td { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.fin-badge { margin-left: 6px; font-size: 10px; font-weight: 600; color: #15803d;
+  background: #dcfce7; border: 1px solid #bbf7d0; border-radius: 8px; padding: 1px 6px; }
+.fin-note { margin: 6px 0 2px; font-size: 11px; color: var(--muted); line-height: 1.6; }
 /* 其他数据（邮政局）板块：详情跨整行全宽，图表与表格放大，去掉拥挤滚动 */
 .spb-detail { grid-column: 1 / -1; }
 .spb-chart { margin: 4px 0 12px; }

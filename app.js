@@ -345,6 +345,16 @@ function expressCard(comp) {
   };
   const periodTag = comp.quarterly ? `<span class="exp-freq">${comp.freq_label}</span>` : "";
   const periodVal = comp.quarterly ? quarterLabel(comp.latest_month) : comp.latest_month;
+  // 极兔等：季报不披露营收/利润，卡片上补一行半年度财报摘要（美元口径）
+  let finLine = "";
+  if (comp.h1_financials) {
+    const pk = Object.keys(comp.h1_financials).sort().pop();
+    const fd = comp.h1_financials[pk];
+    const pick = (n) => (fd.items.find((x) => x.name === n) || {}).value;
+    const yi = (v) => (v != null ? fmt(v / 1e5) : "—");
+    finLine = `<div class="exp-fin">${fd.label}：收入 ${yi(pick("收入"))} 亿美元 · `
+      + `期间利润 ${yi(pick("期间利润"))} 亿美元</div>`;
+  }
   el.innerHTML = `
     <div class="exp-head"><span class="dot" style="background:${comp.color}"></span>
       <span class="exp-name">${comp.company}</span>${periodTag}<span class="exp-month">${periodVal}</span></div>
@@ -352,6 +362,7 @@ function expressCard(comp) {
     ${kpi("业务量", L.volume, "亿件", L.volume_yoy, mom(L.volume, prev && prev.volume))}
     ${kpi("单票收入", L.price, "元", L.price_yoy, mom(L.price, prev && prev.price))}
     ${L.profit != null ? kpi("净利润", L.profit, "亿", L.profit_yoy, mom(L.profit, prev && prev.profit)) : ""}
+    ${finLine}
     <div class="exp-spark" id="spark-${comp.company}"></div>
   `;
   // 迷你走势（优先营收，无数据则退而取业务量/单票，最后留空）
@@ -418,6 +429,72 @@ function expressDetail(comp) {
   const chartBox = document.createElement("div");
   wrap.appendChild(chartBox);
   chartBox.appendChild(drawMetric(comp, metrics[0]));
+
+  // 半年度财报（极兔等：季报仅包裹量，营收/利润/单票在半年报披露，美元口径）
+  // 财报原文单位千美元；展示折算为亿美元（1 亿美元 = 100,000 千美元），单位在表头标明
+  if (comp.h1_financials && Object.keys(comp.h1_financials).length) {
+    Object.keys(comp.h1_financials).sort().forEach((p) => {
+      const fd = comp.h1_financials[p];
+      const h4f = document.createElement("h4");
+      h4f.textContent = `${fd.label} 半年度损益（亿美元；原文 ${fd.unit}）`;
+      wrap.appendChild(h4f);
+      const ft = document.createElement("table");
+      ft.className = "tbl exp-tbl fin-tbl";
+      ft.innerHTML = `<thead><tr><th>项目</th><th>${fd.label}(亿美元)</th><th>上年同期(亿美元)</th><th>同比</th></tr></thead>`;
+      const ftb = document.createElement("tbody");
+      fd.items.forEach((it) => {
+        const tr = document.createElement("tr");
+        if (it.indent) tr.classList.add("fin-indent");
+        if (it.is_profit) tr.classList.add("fin-profit");
+        // 净利润口径标记：财报「期间利润」而非「经调整净利润」
+        const nameCell = it.is_profit
+          ? `${it.name}<span class="fin-badge">净利润口径</span>` : it.name;
+        tr.innerHTML = `<td>${nameCell}</td>`
+          + `<td class="tabular-nums">${fmt(it.value != null ? it.value / 1e5 : null)}</td>`
+          + `<td class="tabular-nums">${fmt(it.prev != null ? it.prev / 1e5 : null)}</td>`
+          + `<td class="${chgClass(it.yoy)}">${pct(it.yoy)}</td>`;
+        ftb.appendChild(tr);
+      });
+      ft.appendChild(ftb);
+      const scf = document.createElement("div");
+      scf.className = "tbl-scroll";
+      scf.appendChild(ft);
+      wrap.appendChild(scf);
+      const note = document.createElement("div");
+      note.className = "fin-note";
+      note.textContent = `净利润取财报「期间利润」（经调整净利润为剔除股份支付等后的口径）。来源：${fd.source}。`;
+      wrap.appendChild(note);
+    });
+  }
+
+  // 单票收入与成本结构（美元/票；占比 = 各项 ÷ 单票收入）
+  if (comp.unit_economics && Object.keys(comp.unit_economics).length) {
+    Object.keys(comp.unit_economics).sort().forEach((p) => {
+      const ud = comp.unit_economics[p];
+      const h4u = document.createElement("h4");
+      h4u.textContent = `${ud.label} 单票收入与成本结构（${ud.unit}/票）`;
+      wrap.appendChild(h4u);
+      const ut = document.createElement("table");
+      ut.className = "tbl exp-tbl cost-tbl";
+      ut.innerHTML = `<thead><tr><th>项目</th><th>${ud.label}(美元)</th><th>占比</th><th>上年同期(美元)</th><th>占比</th></tr></thead>`;
+      const utb = document.createElement("tbody");
+      ud.items.forEach((it) => {
+        const tr = document.createElement("tr");
+        if (it.indent) tr.classList.add("fin-indent");
+        tr.innerHTML = `<td>${it.name}</td>`
+          + `<td class="tabular-nums">${fmt(it.value)}</td>`
+          + `<td class="tabular-nums">${it.pct != null ? it.pct + "%" : "—"}</td>`
+          + `<td class="tabular-nums">${fmt(it.prev)}</td>`
+          + `<td class="tabular-nums">${it.prev_pct != null ? it.prev_pct + "%" : "—"}</td>`;
+        utb.appendChild(tr);
+      });
+      ut.appendChild(utb);
+      const scu = document.createElement("div");
+      scu.className = "tbl-scroll";
+      scu.appendChild(ut);
+      wrap.appendChild(scu);
+    });
+  }
 
   // 营业成本细分（中通等季度披露公司）：按季度分别列出 Q1 / Q2
   if (comp.cost_breakdown_by_month && Object.keys(comp.cost_breakdown_by_month).length) {
@@ -551,10 +628,12 @@ function expressDetail(comp) {
       tb1.innerHTML = `<tr><td>业务量</td><td>${fmt(h1Vol)} 亿件</td>${h1yoyCell(h1Vol, h1Prev && h1Prev.volume)}<td>Q1+Q2 合计</td></tr>`
         + (h1Rev
             ? `<tr><td>业务收入</td><td>${fmt(h1Rev)} 亿</td>${h1yoyCell(h1Rev, h1Prev && h1Prev.revenue)}<td>Q1+Q2 合计</td></tr>`
-            : `<tr><td>业务收入</td><td class="flat">极兔未披露</td><td>—</td><td>公告仅公布包裹量</td></tr>`)
+            : `<tr><td>业务收入</td><td class="flat">季度未披露</td><td>—</td><td>${comp.h1_financials ? "见上方半年度损益（财报口径，美元）" : "公告仅公布包裹量"}</td></tr>`)
         + (h1Profit
             ? `<tr><td>净利润</td><td>${fmt(h1Profit)} 亿</td>${h1yoyCell(h1Profit, h1Prev && h1Prev.profit)}<td>Q1+Q2 合计</td></tr>`
-            : "");
+            : (comp.h1_financials
+                ? `<tr><td>净利润</td><td class="flat">季度未披露</td><td>—</td><td>见上方半年度损益（期间利润）</td></tr>`
+                : ""));
       t1.appendChild(tb1);
       const sc3 = document.createElement("div");
       sc3.className = "tbl-scroll";
