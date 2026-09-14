@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_safrica",
+      "pub_date": "2026-09-11",
+      "comprehensive_value": 1487.1,
+      "prev_value": 1430.44,
+      "change_value": 4.0,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-09-14T10:08:03"
+    },
+    {
+      "code": "ccfi_safrica",
       "pub_date": "2026-09-04",
       "comprehensive_value": 1430.44,
       "prev_value": 1438.89,

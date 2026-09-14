@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_sea",
+      "pub_date": "2026-09-11",
+      "comprehensive_value": 1074.0,
+      "prev_value": 1028.99,
+      "change_value": 4.4,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-09-14T10:08:03"
+    },
+    {
+      "code": "ccfi_sea",
       "pub_date": "2026-09-04",
       "comprehensive_value": 1028.99,
       "prev_value": 989.03,
