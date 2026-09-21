@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi",
+      "pub_date": "2026-09-18",
+      "comprehensive_value": 1897.15,
+      "prev_value": 1862.18,
+      "change_value": 1.9,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-09-20T18:00:05"
+    },
+    {
+      "code": "ccfi",
       "pub_date": "2026-09-11",
       "comprehensive_value": 1862.18,
       "prev_value": 1837.01,

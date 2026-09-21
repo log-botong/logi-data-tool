@@ -576,6 +576,59 @@ function expressDetail(comp) {
   sc.appendChild(hint);
   wrap.appendChild(sc);
 
+  // 业务结构并列表（顺丰：速运物流业务 + 供应链及国际业务两条线）
+  // 两条业务线口径不同（速运含业务量/单票，供应链及国际公告只给营收），此处仅并排营收做结构对比
+  if (comp.intl_monthly && Object.keys(comp.intl_monthly).length) {
+    const h4s = document.createElement("h4");
+    h4s.textContent = "业务结构：速运物流业务 vs 供应链及国际业务（月度营收，亿元）";
+    wrap.appendChild(h4s);
+    const st2 = document.createElement("table");
+    st2.className = "tbl exp-tbl intl-tbl";
+    st2.innerHTML = `<thead><tr>
+      <th>月份</th>
+      <th>速运物流业务</th><th>同比</th>
+      <th>供应链及国际</th><th>同比</th>
+      <th>合计</th><th>合计同比</th>
+    </tr></thead>`;
+    const st2b = document.createElement("tbody");
+    // 速运业务按月索引（series 中不含量/单票缺失的 -H1 记录）
+    const sfMap = {};
+    comp.series.forEach((r) => { if (!r.month.endsWith("-H1")) sfMap[r.month] = r; });
+    Object.keys(comp.intl_monthly).sort().reverse().forEach((m) => {
+      const intl = comp.intl_monthly[m];
+      const sf = sfMap[m];
+      const sfRev = sf ? sf.revenue : null;
+      const total = (sfRev != null && intl.rev != null) ? sfRev + intl.rev : null;
+      // 合计同比：由两条线各自上年同期反推后相加，再算整体同比（非公司披露口径，仅供结构参考）
+      let totalYoy = null;
+      if (sfRev != null && intl.rev != null && sf && sf.revenue_yoy != null && intl.yoy != null) {
+        const prevSum = sfRev / (1 + sf.revenue_yoy / 100) + intl.rev / (1 + intl.yoy / 100);
+        if (prevSum > 0) totalYoy = (total - prevSum) / prevSum * 100;
+      }
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${m}</td>`
+        + `<td class="tabular-nums">${fmt(sfRev)}</td><td class="${chgClass(sf && sf.revenue_yoy)}">${pct(sf && sf.revenue_yoy)}</td>`
+        + `<td class="tabular-nums">${fmt(intl.rev)}</td><td class="${chgClass(intl.yoy)}">${pct(intl.yoy)}</td>`
+        + `<td class="tabular-nums">${fmt(total)}</td><td class="${chgClass(totalYoy)}">${pct(totalYoy)}</td>`;
+      st2b.appendChild(tr);
+    });
+    st2.appendChild(st2b);
+    const sc5 = document.createElement("div");
+    sc5.className = "tbl-scroll";
+    sc5.appendChild(st2);
+    const hint2 = document.createElement("div");
+    hint2.className = "tbl-scroll-hint";
+    hint2.textContent = "← 左右滑动查看完整数据 →";
+    sc5.appendChild(hint2);
+    wrap.appendChild(sc5);
+    if (comp.intl_source) {
+      const nt = document.createElement("div");
+      nt.className = "fin-note";
+      nt.textContent = `口径：速运物流业务含业务量与单票收入；供应链及国际业务公告仅披露营收。合计 = 两条业务线营收相加（含合计同比为反推值），非公司披露口径。来源：${comp.intl_source}。`;
+      wrap.appendChild(nt);
+    }
+  }
+
   // 地区包裹量细分（极兔按地区披露，原文为百万件，统一换算为亿件展示）
   const segRows = [];
   comp.series.forEach((r) => {

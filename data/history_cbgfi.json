@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cbgfi",
+      "pub_date": "2026-09-18",
+      "comprehensive_value": 1149.67,
+      "prev_value": 1170.3300000000002,
+      "change_value": -20.66,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbgfi",
+      "fetched_at": "2026-09-20T18:00:05"
+    },
+    {
+      "code": "cbgfi",
       "pub_date": "2026-09-11",
       "comprehensive_value": 1170.33,
       "prev_value": 1193.26,

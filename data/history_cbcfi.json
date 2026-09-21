@@ -3,6 +3,28 @@
   "history": [
     {
       "code": "cbcfi",
+      "pub_date": "2026-09-21",
+      "comprehensive_value": 827.61,
+      "prev_value": 816.66,
+      "change_value": 10.95,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
+      "fetched_at": "2026-09-21T16:45:05"
+    },
+    {
+      "code": "cbcfi",
+      "pub_date": "2026-09-18",
+      "comprehensive_value": 816.66,
+      "prev_value": 776.55,
+      "change_value": 40.11,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbcfi",
+      "fetched_at": "2026-09-20T18:00:05"
+    },
+    {
+      "code": "cbcfi",
       "pub_date": "2026-09-17",
       "comprehensive_value": 776.55,
       "prev_value": 738.06,
