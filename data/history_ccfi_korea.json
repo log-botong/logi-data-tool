@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_korea",
+      "pub_date": "2026-09-24",
+      "comprehensive_value": 750.59,
+      "prev_value": 682.08,
+      "change_value": 10.0,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-09-25T10:20:04"
+    },
+    {
+      "code": "ccfi_korea",
       "pub_date": "2026-09-18",
       "comprehensive_value": 682.08,
       "prev_value": 659.46,
