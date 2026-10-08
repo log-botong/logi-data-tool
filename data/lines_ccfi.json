@@ -1,4 +1,137 @@
 {
   "code": "ccfi",
-  "lines": []
+  "lines": [
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "波红航线 (PERSIAN GULF/RED SEA SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 4180.45,
+      "curr_value": 4068.55,
+      "change_value": -2.7,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "地中海航线 (MEDITERRANEAN SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 2506.73,
+      "curr_value": 2481.08,
+      "change_value": -1.0,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "美东航线 (E/C AMERICA SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 2003.87,
+      "curr_value": 1980.51,
+      "change_value": -1.2,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "欧洲航线 (EUROPE SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 2028.95,
+      "curr_value": 1970.38,
+      "change_value": -2.9,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "澳新航线 (AUSTRALIA/NEW ZEALAND SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1837.04,
+      "curr_value": 1875.86,
+      "change_value": 2.1,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "美西航线 (W/C AMERICA SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1713.67,
+      "curr_value": 1783.82,
+      "change_value": 4.1,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "南美航线 (SOUTH AMERICA SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1667.49,
+      "curr_value": 1596.6,
+      "change_value": -4.3,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "南非航线 (SOUTH AFRICA SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1380.61,
+      "curr_value": 1508.27,
+      "change_value": 9.2,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "东南亚航线 (SOUTHEAST ASIA SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1211.87,
+      "curr_value": 1322.15,
+      "change_value": 9.1,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "东西非航线 (WEST EAST AFRICA SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1120.69,
+      "curr_value": 1092.59,
+      "change_value": -2.5,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "日本航线 (JAPAN SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1020.52,
+      "curr_value": 1030.85,
+      "change_value": 1.0,
+      "change_is_pct": 1
+    },
+    {
+      "code": "ccfi",
+      "pub_date": "2026-09-30",
+      "line_name": "韩国航线 (KOREA SERVICE)",
+      "unit": "",
+      "weight": "",
+      "prev_value": 750.59,
+      "curr_value": 813.83,
+      "change_value": 8.4,
+      "change_is_pct": 1
+    }
+  ]
 }

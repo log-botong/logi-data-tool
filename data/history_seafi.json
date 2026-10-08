@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "seafi",
+      "pub_date": "2026-09-30",
+      "comprehensive_value": 5825.7,
+      "prev_value": 5794.79,
+      "change_value": 30.91,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=seafi",
+      "fetched_at": "2026-10-08T10:13:05"
+    },
+    {
+      "code": "seafi",
       "pub_date": "2026-09-24",
       "comprehensive_value": 5794.79,
       "prev_value": 5611.26,

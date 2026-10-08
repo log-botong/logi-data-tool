@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "brcvi",
+      "pub_date": "2026-10-08",
+      "comprehensive_value": 184.1,
+      "prev_value": 203.2008830022075,
+      "change_value": -9.4,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=brcvi",
+      "fetched_at": "2026-10-08T10:13:05"
+    },
+    {
+      "code": "brcvi",
       "pub_date": "2026-08-27",
       "comprehensive_value": 203.26,
       "prev_value": 219.0301724137931,
