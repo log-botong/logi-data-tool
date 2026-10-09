@@ -3,35 +3,35 @@
   "lines": [
     {
       "code": "ctfi",
-      "pub_date": "2026-10-08",
+      "pub_date": "2026-10-09",
       "line_name": "中东湾拉斯坦努拉—中国宁波(CT1) ME Gulf Ras Tannura to China Ningbo(CT1)",
       "unit": "点",
       "weight": "60%",
-      "prev_value": 18374.859999999997,
-      "curr_value": 18371.69,
-      "change_value": -3.17,
+      "prev_value": 18371.690000000002,
+      "curr_value": 21708.18,
+      "change_value": 3336.49,
       "change_is_pct": 0
     },
     {
       "code": "ctfi",
-      "pub_date": "2026-10-08",
+      "pub_date": "2026-10-09",
       "line_name": "西非马隆格/ 杰诺—中国宁波(CT2) West Africa Malongo and Djeno to China Ningbo(CT2)",
       "unit": "点",
       "weight": "40%",
-      "prev_value": 10429.240000000002,
-      "curr_value": 10369.95,
-      "change_value": -59.29,
+      "prev_value": 10369.95,
+      "curr_value": 15730.27,
+      "change_value": 5360.32,
       "change_is_pct": 0
     },
     {
       "code": "ctfi",
-      "pub_date": "2026-10-08",
+      "pub_date": "2026-10-09",
       "line_name": "美湾 STS—中国宁波(CT4) US Gulf STS to China Ningbo(CT4)",
       "unit": "万美元",
       "weight": "0%",
-      "prev_value": 5124.599999999999,
-      "curr_value": 5126.69,
-      "change_value": 2.09,
+      "prev_value": 5126.6900000000005,
+      "curr_value": 7848.67,
+      "change_value": 2721.98,
       "change_is_pct": 0
     }
   ]
