@@ -3,24 +3,24 @@
   "lines": [
     {
       "code": "scfis",
-      "pub_date": "2026-10-05",
+      "pub_date": "2026-10-12",
       "line_name": "美西航线（基本港）USWC (Base port)",
       "unit": "点",
       "weight": "",
-      "prev_value": 4636.912087912088,
-      "curr_value": 4219.59,
-      "change_value": -9.0,
+      "prev_value": 4219.23698384201,
+      "curr_value": 4700.23,
+      "change_value": 11.4,
       "change_is_pct": 1
     },
     {
       "code": "scfis",
-      "pub_date": "2026-10-05",
+      "pub_date": "2026-10-12",
       "line_name": "欧洲航线（基本港）Europe (Base port)",
       "unit": "点",
       "weight": "",
-      "prev_value": 2441.477732793522,
-      "curr_value": 2412.18,
-      "change_value": -1.2,
+      "prev_value": 2411.9488817891374,
+      "curr_value": 2264.82,
+      "change_value": -6.1,
       "change_is_pct": 1
     }
   ]
