@@ -61,7 +61,7 @@
       "vol_ytd": 157.9,
       "vol_ytd_yoy": 1.0,
       "source_url": "https://www.spb.gov.cn/gjyzj/c100015/c100016/202601/e6e402458627430daca67f9354c179ed.shtml",
-      "fetched_at": "2026-10-19T15:41:15",
+      "fetched_at": "2026-10-20T10:02:14",
       "combined": 0
     },
     {
@@ -77,7 +77,7 @@
       "vol_ytd": 304.9,
       "vol_ytd_yoy": 7.1,
       "source_url": "https://www.spb.gov.cn/gjyzj/c100015/c100016/202603/49f50c257d274ca4a22087eed6a610a1.shtml",
-      "fetched_at": "2026-10-19T15:41:14",
+      "fetched_at": "2026-10-20T10:02:14",
       "combined": 1
     },
     {
@@ -93,7 +93,7 @@
       "vol_ytd": 477.3,
       "vol_ytd_yoy": 5.8,
       "source_url": "https://www.spb.gov.cn/gjyzj/c100015/c100016/202604/d2240ad07f3a4b9cbf5df268c3c17373.shtml",
-      "fetched_at": "2026-10-19T15:41:12",
+      "fetched_at": "2026-10-20T10:02:13",
       "combined": 0
     },
     {
@@ -109,7 +109,7 @@
       "vol_ytd": 645.7,
       "vol_ytd_yoy": 5.1,
       "source_url": "https://www.spb.gov.cn/gjyzj/c100015/c100016/202605/37b00bd92ee94f59b15a17f1d803eb84.shtml",
-      "fetched_at": "2026-10-19T15:41:10",
+      "fetched_at": "2026-10-20T10:02:13",
       "combined": 0
     },
     {
@@ -125,7 +125,7 @@
       "vol_ytd": 828.7,
       "vol_ytd_yoy": 5.2,
       "source_url": "https://www.spb.gov.cn/gjyzj/c100015/c100016/202606/b2d7c77013a64fe7a73f527c2a41d15f.shtml",
-      "fetched_at": "2026-10-19T15:41:08",
+      "fetched_at": "2026-10-20T10:02:13",
       "combined": 0
     },
     {
@@ -141,7 +141,7 @@
       "vol_ytd": 1003.8,
       "vol_ytd_yoy": 5.0,
       "source_url": "https://www.spb.gov.cn/gjyzj/c100015/c100016/202607/a31abbec99be4e0d80188b1a25fe1fe6.shtml",
-      "fetched_at": "2026-10-19T15:41:07",
+      "fetched_at": "2026-10-20T10:02:12",
       "combined": 0
     },
     {
@@ -157,7 +157,7 @@
       "vol_ytd": 1174.7,
       "vol_ytd_yoy": 4.8,
       "source_url": "https://www.spb.gov.cn/gjyzj/c100015/c100016/202608/b38ba608fef440bb89db1e7c3a9fddbf.shtml",
-      "fetched_at": "2026-10-19T15:41:05",
+      "fetched_at": "2026-10-20T10:02:12",
       "combined": 0
     },
     {
@@ -173,12 +173,28 @@
       "vol_ytd": 1340.6,
       "vol_ytd_yoy": 4.6,
       "source_url": "https://www.spb.gov.cn/gjyzj/c100015/c100016/202609/5da542159e1449b4ba8334b6054e0718.shtml",
-      "fetched_at": "2026-10-19T15:41:03",
+      "fetched_at": "2026-10-20T10:02:12",
+      "combined": 0
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "month_num": 9,
+      "rev_month": 1345.2,
+      "rev_month_yoy": 5.6,
+      "vol_month": 172.3,
+      "vol_month_yoy": 2.1,
+      "rev_ytd": 11634.4,
+      "rev_ytd_yoy": 7.2,
+      "vol_ytd": 1513.0,
+      "vol_ytd_yoy": 4.3,
+      "source_url": "https://www.spb.gov.cn/gjyzj/c100015/c100016/202610/d825347972b7427c95a9fe68ff355ce8.shtml",
+      "fetched_at": "2026-10-20T10:02:12",
       "combined": 0
     }
   ],
-  "latest_month": "2026-08",
-  "count": 11,
+  "latest_month": "2026-09",
+  "count": 12,
   "source_home": "https://www.spb.gov.cn/gjyzj/c100276/common_list.shtml",
   "source_note": "来源：国家邮政局《邮政行业运行情况》月度公告（仅同步展示、不加工原始数值）"
 }
