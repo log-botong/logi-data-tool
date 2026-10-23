@@ -194,6 +194,9 @@ body {
 .fin-badge { margin-left: 6px; font-size: 10px; font-weight: 600; color: #15803d;
   background: #dcfce7; border: 1px solid #bbf7d0; border-radius: 8px; padding: 1px 6px; }
 .fin-note { margin: 6px 0 2px; font-size: 11px; color: var(--muted); line-height: 1.6; }
+/* 公司级口径注记：合并报表范围变化等影响各期同比可比性的提示，置顶、醒目但克制 */
+.company-note { margin: 2px 0 10px; padding: 7px 10px; font-size: 11.5px; line-height: 1.65;
+  color: var(--muted); background: #f9fafb; border-left: 3px solid #d1d5db; border-radius: 3px; }
 /* 其他数据（邮政局）板块：详情跨整行全宽，图表与表格放大，去掉拥挤滚动 */
 .spb-detail { grid-column: 1 / -1; }
 .spb-chart { margin: 4px 0 12px; }

@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cicfi_safrica",
+      "pub_date": "2026-10-21",
+      "comprehensive_value": 960.3,
+      "prev_value": 1038.52,
+      "change_value": -7.5,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-10-22T18:00:04"
+    },
+    {
+      "code": "cicfi_safrica",
       "pub_date": "2026-10-14",
       "comprehensive_value": 1038.52,
       "prev_value": 937.01,

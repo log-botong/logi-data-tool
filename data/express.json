@@ -5,18 +5,18 @@
       "color": "#d92662",
       "quarterly": false,
       "freq_label": "月度披露",
-      "latest_month": "2026-08",
+      "latest_month": "2026-09",
       "latest": {
         "company": "顺丰",
-        "month": "2026-08",
-        "revenue": 184.06,
-        "revenue_yoy": -1.35,
-        "volume": 12.86,
-        "volume_yoy": -8.53,
-        "price": 14.31,
-        "price_yoy": 7.84,
-        "source": "2026年8月业绩快报（公司公告，2026-09-19发布）",
-        "updated_at": "2026-09-20T17:47:41",
+        "month": "2026-09",
+        "revenue": 208.35,
+        "revenue_yoy": -0.09,
+        "volume": 13.95,
+        "volume_yoy": -7.25,
+        "price": 14.94,
+        "price_yoy": 7.71,
+        "source": "2026年9月业绩快报（公司公告，2026-10-19发布）",
+        "updated_at": "2026-10-20T12:26:25",
         "profit": null,
         "profit_yoy": null,
         "segments": []
@@ -141,6 +141,21 @@
           "profit": null,
           "profit_yoy": null,
           "segments": []
+        },
+        {
+          "company": "顺丰",
+          "month": "2026-09",
+          "revenue": 208.35,
+          "revenue_yoy": -0.09,
+          "volume": 13.95,
+          "volume_yoy": -7.25,
+          "price": 14.94,
+          "price_yoy": 7.71,
+          "source": "2026年9月业绩快报（公司公告，2026-10-19发布）",
+          "updated_at": "2026-10-20T12:26:25",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
         }
       ],
       "intl_monthly": {
@@ -175,6 +190,10 @@
         "2026-08": {
           "rev": 70.83,
           "yoy": 15.55
+        },
+        "2026-09": {
+          "rev": 78.84,
+          "yoy": 28.13
         }
       },
       "intl_source": "顺丰控股月度经营快报（速运物流业务 + 供应链及国际业务两条业务线）"
@@ -184,18 +203,18 @@
       "color": "#6f42c1",
       "quarterly": false,
       "freq_label": "月度披露",
-      "latest_month": "2026-08",
+      "latest_month": "2026-09",
       "latest": {
         "company": "圆通",
-        "month": "2026-08",
-        "revenue": 58.19,
-        "revenue_yoy": 7.95,
-        "volume": 28.36,
-        "volume_yoy": 12.93,
-        "price": 2.05,
-        "price_yoy": -4.4,
-        "source": "2026年8月业绩快报（公司公告，2026-09-19发布）",
-        "updated_at": "2026-09-20T17:47:41",
+        "month": "2026-09",
+        "revenue": 61.38,
+        "revenue_yoy": 5.86,
+        "volume": 29.51,
+        "volume_yoy": 12.33,
+        "price": 2.08,
+        "price_yoy": -5.76,
+        "source": "2026年9月业绩快报（公司公告，2026-10-19发布）",
+        "updated_at": "2026-10-20T12:26:25",
         "profit": null,
         "profit_yoy": null,
         "segments": []
@@ -320,6 +339,21 @@
           "profit": null,
           "profit_yoy": null,
           "segments": []
+        },
+        {
+          "company": "圆通",
+          "month": "2026-09",
+          "revenue": 61.38,
+          "revenue_yoy": 5.86,
+          "volume": 29.51,
+          "volume_yoy": 12.33,
+          "price": 2.08,
+          "price_yoy": -5.76,
+          "source": "2026年9月业绩快报（公司公告，2026-10-19发布）",
+          "updated_at": "2026-10-20T12:26:25",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
         }
       ]
     },
@@ -328,18 +362,18 @@
       "color": "#f0922f",
       "quarterly": false,
       "freq_label": "月度披露",
-      "latest_month": "2026-08",
+      "latest_month": "2026-09",
       "latest": {
         "company": "申通",
-        "month": "2026-08",
-        "revenue": 54.07,
-        "revenue_yoy": 21.95,
-        "volume": 25.34,
-        "volume_yoy": 18.0,
-        "price": 2.13,
-        "price_yoy": 3.4,
-        "source": "2026年8月业绩快报（公司公告，2026-09-19发布）",
-        "updated_at": "2026-09-20T17:47:41",
+        "month": "2026-09",
+        "revenue": 54.69,
+        "revenue_yoy": 18.05,
+        "volume": 25.24,
+        "volume_yoy": 15.43,
+        "price": 2.17,
+        "price_yoy": 2.36,
+        "source": "2026年9月业绩快报（公司公告，2026-10-19发布）",
+        "updated_at": "2026-10-20T12:26:25",
         "profit": null,
         "profit_yoy": null,
         "segments": []
@@ -464,26 +498,42 @@
           "profit": null,
           "profit_yoy": null,
           "segments": []
+        },
+        {
+          "company": "申通",
+          "month": "2026-09",
+          "revenue": 54.69,
+          "revenue_yoy": 18.05,
+          "volume": 25.24,
+          "volume_yoy": 15.43,
+          "price": 2.17,
+          "price_yoy": 2.36,
+          "source": "2026年9月业绩快报（公司公告，2026-10-19发布）",
+          "updated_at": "2026-10-20T12:26:25",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
         }
-      ]
+      ],
+      "note": "自 2025 年 11 月起，浙江丹鸟物流科技有限公司（收购 100% 股权，2025-11-04 完成工商变更登记）及其控股子公司纳入合并报表范围；此后各期业务收入、业务量均含丹鸟口径，与并入前各期不完全可比。"
     },
     {
       "company": "韵达",
       "color": "#2f7ed8",
       "quarterly": false,
       "freq_label": "月度披露",
-      "latest_month": "2026-08",
+      "latest_month": "2026-09",
       "latest": {
         "company": "韵达",
-        "month": "2026-08",
-        "revenue": 44.63,
-        "revenue_yoy": 8.35,
-        "volume": 21.01,
-        "volume_yoy": -2.05,
-        "price": 2.12,
-        "price_yoy": 10.42,
-        "source": "2026年8月业绩快报（公司公告，2026-09-19发布）",
-        "updated_at": "2026-09-20T17:47:41",
+        "month": "2026-09",
+        "revenue": 45.87,
+        "revenue_yoy": 7.88,
+        "volume": 21.39,
+        "volume_yoy": 1.37,
+        "price": 2.14,
+        "price_yoy": 5.94,
+        "source": "2026年9月业绩快报（公司公告，2026-10-19发布）",
+        "updated_at": "2026-10-20T12:26:25",
         "profit": null,
         "profit_yoy": null,
         "segments": []
@@ -605,6 +655,21 @@
           "price_yoy": 10.42,
           "source": "2026年8月业绩快报（公司公告，2026-09-19发布）",
           "updated_at": "2026-09-20T17:47:41",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": []
+        },
+        {
+          "company": "韵达",
+          "month": "2026-09",
+          "revenue": 45.87,
+          "revenue_yoy": 7.88,
+          "volume": 21.39,
+          "volume_yoy": 1.37,
+          "price": 2.14,
+          "price_yoy": 5.94,
+          "source": "2026年9月业绩快报（公司公告，2026-10-19发布）",
+          "updated_at": "2026-10-20T12:26:25",
           "profit": null,
           "profit_yoy": null,
           "segments": []
@@ -1025,8 +1090,9 @@
     "2026-05",
     "2026-06",
     "2026-07",
-    "2026-08"
+    "2026-08",
+    "2026-09"
   ],
-  "latest_month": "2026-08",
+  "latest_month": "2026-09",
   "source_note": "用户整理（来源：各快递公司月度/季度经营公告 / 国家邮政局公开披露；极兔、中通为季度披露，净利润取 net income；极兔半年度财报为美元口径、净利润取「期间利润」）"
 }

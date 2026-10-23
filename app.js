@@ -410,6 +410,13 @@ function expressDetail(comp) {
     { key: "price", name: "单票收入", unit: "元", d: 2 },
     { key: "profit", name: "净利润", unit: "亿", d: 2 },
   ];
+  // 公司级口径注记（如合并报表范围变化）：置顶展示，避免读者误读各期同比
+  if (comp.note) {
+    const ntc = document.createElement("div");
+    ntc.className = "company-note";
+    ntc.textContent = `口径提示：${comp.note}`;
+    wrap.appendChild(ntc);
+  }
   const bar = document.createElement("div");
   bar.className = "metric-bar";
   metrics.forEach((m, i) => {
