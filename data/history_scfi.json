@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "scfi",
+      "pub_date": "2026-10-23",
+      "comprehensive_value": 3681.34,
+      "prev_value": 3679.58,
+      "change_value": 1.76,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=scfi",
+      "fetched_at": "2026-10-23T18:00:22"
+    },
+    {
+      "code": "scfi",
       "pub_date": "2026-10-16",
       "comprehensive_value": 3679.58,
       "prev_value": 3664.11,

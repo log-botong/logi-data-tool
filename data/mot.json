@@ -1,6 +1,11 @@
 {
   "periods": [
     {
+      "period": "2026-Q3",
+      "period_type": "quarter",
+      "period_label": "2026年前三季度"
+    },
+    {
       "period": "2026-08",
       "period_type": "month",
       "period_label": "2026年8月"
@@ -5715,7 +5720,7 @@
         "cum_yoy": 2.4,
         "cum_unit": "亿吨",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5730,7 +5735,7 @@
         "cum_yoy": 2.7,
         "cum_unit": "亿吨",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5745,7 +5750,7 @@
         "cum_yoy": 2.2,
         "cum_unit": "亿吨",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5760,7 +5765,7 @@
         "cum_yoy": -4.6,
         "cum_unit": "亿吨",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5775,7 +5780,7 @@
         "cum_yoy": 4.0,
         "cum_unit": "亿标箱",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5790,7 +5795,7 @@
         "cum_yoy": 0.7,
         "cum_unit": "亿人次",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5805,7 +5810,7 @@
         "cum_yoy": 0.5,
         "cum_unit": "亿人次",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5820,7 +5825,7 @@
         "cum_yoy": -1.7,
         "cum_unit": "亿人次",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5835,7 +5840,7 @@
         "cum_yoy": 3.7,
         "cum_unit": "亿人次",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5850,7 +5855,7 @@
         "cum_yoy": 2.1,
         "cum_unit": "亿人次",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5865,7 +5870,7 @@
         "cum_yoy": 11.1,
         "cum_unit": "亿人次",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5880,7 +5885,7 @@
         "cum_yoy": -2.1,
         "cum_unit": "亿人次",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5895,7 +5900,7 @@
         "cum_yoy": -10.0,
         "cum_unit": "万人次",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5910,7 +5915,7 @@
         "cum_yoy": null,
         "cum_unit": "亿元",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5925,7 +5930,7 @@
         "cum_yoy": null,
         "cum_unit": "亿元",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       },
       {
         "period": "2026-08",
@@ -5940,7 +5945,7 @@
         "cum_yoy": null,
         "cum_unit": "亿元",
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202609/t20260928_4225032.html",
-        "fetched_at": "2026-10-23T10:03:25"
+        "fetched_at": "2026-10-24T18:28:45"
       }
     ],
     "2026-H1": [
@@ -6336,10 +6341,192 @@
         "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202604/t20260421_4204106.html",
         "fetched_at": "2026-07-29T11:50:04"
       }
+    ],
+    "2026-Q3": [
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "freight",
+        "indicator": "freight_total",
+        "label": "货运总量",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 430.4,
+        "cum_yoy": 2.3,
+        "cum_unit": "亿吨",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "freight",
+        "indicator": "freight_road",
+        "label": "公路货运",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 327.0,
+        "cum_yoy": 2.5,
+        "cum_unit": "亿吨",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "freight",
+        "indicator": "freight_water",
+        "label": "水路货运",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 63.9,
+        "cum_yoy": 2.2,
+        "cum_unit": "亿吨",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "port",
+        "indicator": "port_cargo",
+        "label": "港口货物吞吐量",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 136.4,
+        "cum_yoy": 0.7,
+        "cum_unit": "亿吨",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "port",
+        "indicator": "port_container",
+        "label": "集装箱吞吐量",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 2.8,
+        "cum_yoy": 4.5,
+        "cum_unit": "亿标箱",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "flow",
+        "indicator": "flow_total",
+        "label": "人员流动量(总量)",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 512.2,
+        "cum_yoy": 1.2,
+        "cum_unit": "亿人次",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "flow",
+        "indicator": "flow_road",
+        "label": "公路人员流动量",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 467.2,
+        "cum_yoy": 1.0,
+        "cum_unit": "亿人次",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "flow",
+        "indicator": "flow_water",
+        "label": "水路客运量",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 2.0,
+        "cum_yoy": -1.2,
+        "cum_unit": "亿人次",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "urban",
+        "indicator": "urban_total",
+        "label": "城市客运量(总量)",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 792.8,
+        "cum_yoy": 2.5,
+        "cum_unit": "亿人次",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "invest",
+        "indicator": "invest_total",
+        "label": "交通固定资产投资",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 2.4,
+        "cum_yoy": null,
+        "cum_unit": "万亿元",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "invest",
+        "indicator": "invest_road",
+        "label": "公路投资",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 1.6,
+        "cum_yoy": null,
+        "cum_unit": "万亿元",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      },
+      {
+        "period": "2026-Q3",
+        "period_type": "quarter",
+        "category": "invest",
+        "indicator": "invest_water",
+        "label": "水运投资",
+        "cur_val": null,
+        "cur_yoy": null,
+        "cur_unit": null,
+        "cum_val": 1571.0,
+        "cum_yoy": null,
+        "cum_unit": "亿元",
+        "source_url": "https://xxgk.mot.gov.cn/jigou/zhghs/202610/t20261026_4226700.html",
+        "fetched_at": "2026-10-27T10:08:32"
+      }
     ]
   },
-  "latest_period": "2026-08",
-  "count": 397,
+  "latest_period": "2026-Q3",
+  "count": 409,
   "source_home": "https://www.mot.gov.cn/shuju/fenxigongbao/jingjifenxi/index.html",
   "source_note": "来源：交通运输部《交通运输经济运行情况》月度/季度/半年报（散文+配图，数字由正文正则半自动抽取；仅同步展示、不加工原始数值，建议以官方原文为准）"
 }

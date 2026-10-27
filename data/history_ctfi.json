@@ -3,6 +3,28 @@
   "history": [
     {
       "code": "ctfi",
+      "pub_date": "2026-10-26",
+      "comprehensive_value": 16695.4,
+      "prev_value": 16708.02,
+      "change_value": -12.62,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
+      "fetched_at": "2026-10-26T18:00:02"
+    },
+    {
+      "code": "ctfi",
+      "pub_date": "2026-10-23",
+      "comprehensive_value": 16708.02,
+      "prev_value": 17120.3,
+      "change_value": -412.28,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ctfi",
+      "fetched_at": "2026-10-23T18:00:22"
+    },
+    {
+      "code": "ctfi",
       "pub_date": "2026-10-22",
       "comprehensive_value": 17120.3,
       "prev_value": 17612.35,

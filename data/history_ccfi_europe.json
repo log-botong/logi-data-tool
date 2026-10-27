@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_europe",
+      "pub_date": "2026-10-23",
+      "comprehensive_value": 1849.31,
+      "prev_value": 1855.62,
+      "change_value": -0.3,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-10-24T18:29:11"
+    },
+    {
+      "code": "ccfi_europe",
       "pub_date": "2026-10-16",
       "comprehensive_value": 1855.62,
       "prev_value": 1931.69,
