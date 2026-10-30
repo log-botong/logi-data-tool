@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "brsti",
+      "pub_date": "2026-10-30",
+      "comprehensive_value": 294.09,
+      "prev_value": 255.73043478260868,
+      "change_value": 15.0,
+      "change_is_pct": 1,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=brsti",
+      "fetched_at": "2026-10-30T10:12:42"
+    },
+    {
+      "code": "brsti",
       "pub_date": "2026-10-08",
       "comprehensive_value": 255.76,
       "prev_value": 254.99501495513462,

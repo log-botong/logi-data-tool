@@ -663,6 +663,43 @@ function expressDetail(comp) {
     wrap.appendChild(sc2);
   }
 
+  // 「年初至今累计」包裹量（极兔季度公告直接披露累计值与去年同期基数，
+  // 不采用单季相加：各季数据保留一位小数，累加会有 ±0.1 百万件的舍入偏差）
+  if (comp.cumulative) {
+    Object.entries(comp.cumulative).forEach(([, blk]) => {
+      const h4cum = document.createElement("h4");
+      h4cum.textContent = `年初至今累计包裹量｜${blk.label}（亿件，原文${blk.unit}÷100）`;
+      wrap.appendChild(h4cum);
+      const cumTbl = document.createElement("table");
+      cumTbl.className = "tbl exp-tbl seg-tbl";
+      cumTbl.innerHTML = `<thead><tr><th>地区</th><th>${blk.label}</th><th>上年同期</th><th>同比</th><th>占比</th></tr></thead>`;
+      const cumTb = document.createElement("tbody");
+      const totalVal = (blk.items.find((it) => it.total) || {}).value;
+      blk.items.forEach((it) => {
+        const tr = document.createElement("tr");
+        if (it.total) tr.classList.add("cost-total");
+        const share = totalVal ? (it.value / totalVal * 100) : null;
+        tr.innerHTML = `<td>${it.name}</td>`
+          + `<td>${fmt(it.value / 100)}</td>`
+          + `<td>${fmt(it.prev / 100)}</td>`
+          + `<td class="${chgClass(it.yoy)}">${pct(it.yoy)}</td>`
+          + `<td>${share != null ? share.toFixed(1) + "%" : "—"}</td>`;
+        cumTb.appendChild(tr);
+      });
+      cumTbl.appendChild(cumTb);
+      const cumWrap = document.createElement("div");
+      cumWrap.className = "tbl-scroll";
+      cumWrap.appendChild(cumTbl);
+      wrap.appendChild(cumWrap);
+      if (blk.source) {
+        const cumNote = document.createElement("div");
+        cumNote.className = "fin-note";
+        cumNote.textContent = `数据来源：${blk.source}。累计值为公告披露口径，与单季数据直接相加可能有 ±0.1 百万件舍入差异。`;
+        wrap.appendChild(cumNote);
+      }
+    });
+  }
+
   // 半年度合计（H1）：季度披露企业按当年 Q1+Q2 求和，体现数据本身粒度（非缺数据）
   // 仅当有 ≥2 个季度（Q1+Q2 都存在）时才展示；只有单期（如中通仅 Q1）则跳过
   if (comp.quarterly) {

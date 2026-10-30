@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cicfi_anz",
+      "pub_date": "2026-10-28",
+      "comprehensive_value": 908.52,
+      "prev_value": 938.85,
+      "change_value": -3.2,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-10-30T10:12:42"
+    },
+    {
+      "code": "cicfi_anz",
       "pub_date": "2026-10-21",
       "comprehensive_value": 938.85,
       "prev_value": 1005.0,

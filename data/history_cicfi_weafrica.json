@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "cicfi_weafrica",
+      "pub_date": "2026-10-28",
+      "comprehensive_value": 407.61,
+      "prev_value": 377.93,
+      "change_value": 7.9,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cicfi",
+      "fetched_at": "2026-10-30T10:12:42"
+    },
+    {
+      "code": "cicfi_weafrica",
       "pub_date": "2026-10-21",
       "comprehensive_value": 377.93,
       "prev_value": 374.97,

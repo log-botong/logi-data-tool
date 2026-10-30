@@ -681,41 +681,41 @@
       "color": "#16a34a",
       "quarterly": true,
       "freq_label": "季度披露",
-      "latest_month": "2026-06",
+      "latest_month": "2026-09",
       "latest": {
         "company": "极兔",
-        "month": "2026-06",
+        "month": "2026-09",
         "revenue": null,
         "revenue_yoy": null,
-        "volume": 91.767,
-        "volume_yoy": 24.2,
+        "volume": 95.841,
+        "volume_yoy": 24.8,
         "price": null,
         "price_yoy": null,
-        "source": "1225414471.pdf",
-        "updated_at": "2026-07-21T18:29:31",
+        "source": "极兔速递2026年第三季度运营数据公告（港交所）：包裹量合计9584.1百万件（+24.8%），东南亚2885.6（+44.5%）、中国6427.7（+15.3%）、其他270.8（+159.5%）；季内仅披露包裹量，营收/利润/单票等完整财务口径待年报披露。",
+        "updated_at": "2026-10-27T15:39:58",
         "profit": null,
         "profit_yoy": null,
         "segments": [
           {
             "company": "极兔",
-            "month": "2026-06",
+            "month": "2026-09",
             "region": "中国",
-            "volume": 6210.6,
-            "volume_yoy": 10.6
+            "volume": 6427.7,
+            "volume_yoy": 15.3
           },
           {
             "company": "极兔",
-            "month": "2026-06",
+            "month": "2026-09",
             "region": "东南亚",
-            "volume": 2754.8,
-            "volume_yoy": 63.2
+            "volume": 2885.6,
+            "volume_yoy": 44.5
           },
           {
             "company": "极兔",
-            "month": "2026-06",
+            "month": "2026-09",
             "region": "其他",
-            "volume": 211.3,
-            "volume_yoy": 136.5
+            "volume": 270.8,
+            "volume_yoy": 159.5
           }
         ]
       },
@@ -791,6 +791,43 @@
               "region": "其他",
               "volume": 211.3,
               "volume_yoy": 136.5
+            }
+          ]
+        },
+        {
+          "company": "极兔",
+          "month": "2026-09",
+          "revenue": null,
+          "revenue_yoy": null,
+          "volume": 95.841,
+          "volume_yoy": 24.8,
+          "price": null,
+          "price_yoy": null,
+          "source": "极兔速递2026年第三季度运营数据公告（港交所）：包裹量合计9584.1百万件（+24.8%），东南亚2885.6（+44.5%）、中国6427.7（+15.3%）、其他270.8（+159.5%）；季内仅披露包裹量，营收/利润/单票等完整财务口径待年报披露。",
+          "updated_at": "2026-10-27T15:39:58",
+          "profit": null,
+          "profit_yoy": null,
+          "segments": [
+            {
+              "company": "极兔",
+              "month": "2026-09",
+              "region": "中国",
+              "volume": 6427.7,
+              "volume_yoy": 15.3
+            },
+            {
+              "company": "极兔",
+              "month": "2026-09",
+              "region": "东南亚",
+              "volume": 2885.6,
+              "volume_yoy": 44.5
+            },
+            {
+              "company": "极兔",
+              "month": "2026-09",
+              "region": "其他",
+              "volume": 270.8,
+              "volume_yoy": 159.5
             }
           ]
         }
@@ -911,6 +948,40 @@
               "prev": 0.01,
               "prev_pct": 3.0,
               "indent": true
+            }
+          ]
+        }
+      },
+      "cumulative": {
+        "2026-09": {
+          "label": "2026年1-9月",
+          "unit": "百万件",
+          "source": "极兔速递2026年第三季度运营数据公告（港交所）",
+          "items": [
+            {
+              "name": "东南亚",
+              "value": 8408.2,
+              "prev": 5223.0,
+              "yoy": 61.0
+            },
+            {
+              "name": "中国",
+              "value": 18042.7,
+              "prev": 16174.6,
+              "yoy": 11.5
+            },
+            {
+              "name": "其他",
+              "value": 635.8,
+              "prev": 270.3,
+              "yoy": 135.2
+            },
+            {
+              "name": "合计",
+              "value": 27086.7,
+              "prev": 21667.9,
+              "yoy": 25.0,
+              "total": true
             }
           ]
         }
