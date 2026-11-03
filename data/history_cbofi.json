@@ -3,6 +3,28 @@
   "history": [
     {
       "code": "cbofi",
+      "pub_date": "2026-11-02",
+      "comprehensive_value": 779.97,
+      "prev_value": 779.27,
+      "change_value": 0.7,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbofi",
+      "fetched_at": "2026-11-03T10:16:30"
+    },
+    {
+      "code": "cbofi",
+      "pub_date": "2026-10-30",
+      "comprehensive_value": 779.27,
+      "prev_value": 782.39,
+      "change_value": -3.12,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cbofi",
+      "fetched_at": "2026-10-30T18:00:03"
+    },
+    {
+      "code": "cbofi",
       "pub_date": "2026-10-28",
       "comprehensive_value": 782.39,
       "prev_value": 787.84,
