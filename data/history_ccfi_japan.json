@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_japan",
+      "pub_date": "2026-11-06",
+      "comprehensive_value": 1051.09,
+      "prev_value": 1016.08,
+      "change_value": 3.4,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-11-10T10:17:45"
+    },
+    {
+      "code": "ccfi_japan",
       "pub_date": "2026-10-30",
       "comprehensive_value": 1016.08,
       "prev_value": 1063.23,
