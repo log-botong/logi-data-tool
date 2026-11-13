@@ -1,4 +1,137 @@
 {
   "code": "cicfi",
-  "lines": []
+  "lines": [
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "波红航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 2836.88,
+      "curr_value": 2662.39,
+      "change_value": -6.2,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "南美航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 970.55,
+      "curr_value": 1020.44,
+      "change_value": 5.1,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "日本航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 999.49,
+      "curr_value": 1007.47,
+      "change_value": 0.8,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "韩国航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 866.24,
+      "curr_value": 968.82,
+      "change_value": 11.8,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "南非航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 1020.49,
+      "curr_value": 964.02,
+      "change_value": -5.5,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "澳新航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 905.39,
+      "curr_value": 913.95,
+      "change_value": 0.9,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "美西航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 809.5,
+      "curr_value": 796.57,
+      "change_value": -1.6,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "地中海航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 757.57,
+      "curr_value": 749.23,
+      "change_value": -1.1,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "美东航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 632.72,
+      "curr_value": 625.47,
+      "change_value": -1.1,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "东南亚航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 611.3,
+      "curr_value": 615.82,
+      "change_value": 0.7,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "欧洲航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 456.72,
+      "curr_value": 455.15,
+      "change_value": -0.3,
+      "change_is_pct": 1
+    },
+    {
+      "code": "cicfi",
+      "pub_date": "2026-11-11",
+      "line_name": "东西非航线",
+      "unit": "",
+      "weight": "",
+      "prev_value": 420.23,
+      "curr_value": 425.27,
+      "change_value": 1.2,
+      "change_is_pct": 1
+    }
+  ]
 }

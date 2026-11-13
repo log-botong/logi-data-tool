@@ -3,6 +3,28 @@
   "history": [
     {
       "code": "cdfi",
+      "pub_date": "2026-11-12",
+      "comprehensive_value": 1617.01,
+      "prev_value": 1589.37,
+      "change_value": 27.64,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cdfi",
+      "fetched_at": "2026-11-13T10:54:48"
+    },
+    {
+      "code": "cdfi",
+      "pub_date": "2026-11-10",
+      "comprehensive_value": 1590.52,
+      "prev_value": 1581.96,
+      "change_value": 8.56,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=cdfi",
+      "fetched_at": "2026-11-10T18:00:03"
+    },
+    {
+      "code": "cdfi",
       "pub_date": "2026-11-09",
       "comprehensive_value": 1581.96,
       "prev_value": 1584.99,
