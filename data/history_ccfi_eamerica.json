@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_eamerica",
+      "pub_date": "2026-11-13",
+      "comprehensive_value": 2011.45,
+      "prev_value": 2025.07,
+      "change_value": -0.7,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-11-17T10:42:36"
+    },
+    {
+      "code": "ccfi_eamerica",
       "pub_date": "2026-11-06",
       "comprehensive_value": 2025.07,
       "prev_value": 2005.3,

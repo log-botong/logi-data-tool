@@ -3,6 +3,17 @@
   "history": [
     {
       "code": "ccfi_anz",
+      "pub_date": "2026-11-13",
+      "comprehensive_value": 1887.42,
+      "prev_value": 1863.27,
+      "change_value": 1.3,
+      "change_is_pct": 0,
+      "unit": "点",
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "fetched_at": "2026-11-17T10:42:36"
+    },
+    {
+      "code": "ccfi_anz",
       "pub_date": "2026-11-06",
       "comprehensive_value": 1863.27,
       "prev_value": 1861.46,
