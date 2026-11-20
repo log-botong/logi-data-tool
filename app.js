@@ -543,6 +543,37 @@ function expressDetail(comp) {
     });
   }
 
+  // 「年初至今累计」营业成本（中通季度财报同时披露单季与年初至今两组口径）
+  if (comp.cost_cumulative && Object.keys(comp.cost_cumulative).length) {
+    Object.keys(comp.cost_cumulative).sort().forEach((k) => {
+      const cd = comp.cost_cumulative[k];
+      const h4cc = document.createElement("h4");
+      h4cc.textContent = `营业成本累计｜${cd.label}（单票成本 = 累计成本 ÷ 累计业务量）`;
+      wrap.appendChild(h4cc);
+      const cct = document.createElement("table");
+      cct.className = "tbl exp-tbl cost-tbl";
+      cct.innerHTML = `<thead><tr><th>成本项目</th><th>金额(亿)</th><th>占营收比</th><th>同比</th><th>单票成本(元)</th></tr></thead>`;
+      const cctb = document.createElement("tbody");
+      cd.items.forEach((item) => {
+        const tr = document.createElement("tr");
+        if (item.total) tr.classList.add("cost-total");
+        tr.innerHTML =
+          `<td>${item.name}</td>` +
+          `<td class="tabular-nums">${fmt(item.amount)}</td>` +
+          `<td class="tabular-nums">${item.pct_revenue != null ? item.pct_revenue + "%" : "—"}</td>` +
+          `<td class="${chgClass(item.yoy)}">${pct(item.yoy)}</td>` +
+          `<td class="tabular-nums">${fmt(item.unit_cost)}</td>`;
+        cctb.appendChild(tr);
+      });
+      cct.appendChild(cctb);
+      wrap.appendChild(cct);
+      const ccNote = document.createElement("div");
+      ccNote.className = "fin-note";
+      ccNote.textContent = `累计业务量 ${fmt(cd.volume)} 亿件（Q1+Q2+Q3 加总），单票成本据此推算。来源：${cd.source}。`;
+      wrap.appendChild(ccNote);
+    });
+  }
+
   // 全指标时序表（含同比、环比）：过滤掉 -H1 半年度基数记录
   const qs = comp.series.filter((r) => !r.month.endsWith("-H1"));
   const h4 = document.createElement("h4");
